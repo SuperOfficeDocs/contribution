@@ -15,7 +15,7 @@ You can interact with Git locally through tools such as Git Bash or via [www.git
 
 ### Branch strategy
 
-Our main branch is **master**, which the live docs.superoffice.com is built from.
+Our main branch is **main**, which the live docs.superoffice.com is built from.
 
 We use feature branches to isolate work in progress from the completed work in the main branch. Even small fixes and changes should have their own branch. This simplifies the review process and creates an accurate history of changes.
 
@@ -26,13 +26,13 @@ We use feature branches to isolate work in progress from the completed work in t
 
 **Naming conventions:**
 
-* \<Azure DevOps issue>-feature-name
+* \<docs issue>-feature-name
 * \<docs issue>-description
 * bugfix-description
 
 ### Pull requests
 
-* Requires a pull request to merge code.
+* Require a pull request to merge code.
 * Code merged into the main branch should build cleanly.
 * Squash merge.
 
@@ -49,7 +49,7 @@ TBD
 * Use a descriptive name based on the top-level heading in the file.
 * Use single hyphens as word separators. Don't use underscores or camel case.
 * Use lower-case letters, numbers, and dashes only.
-* Omit articles and the word *and*
+* Omit articles and the word *and*.
 
 **Naming conventions:**
 
@@ -58,7 +58,7 @@ TBD
 * \<feature/context>-\<crud>-\<item>.md
 * \<feature/context>-settings.md
 * \<feature/context>-config.md
-* \<feature/context>-nav.md (for landing pages)
+* \<feature/context>-nav.md or index.md (for landing pages)
 
 If there are multiple features or contexts in a single folder, you need to specify that in the file names. Otherwise, the parent folder should make that clear.
 
@@ -73,7 +73,7 @@ If there are multiple features or contexts in a single folder, you need to speci
 
 We use subfolders to group similar content, images, and reusable snippets. The organization on GitHub only loosely resembles the structure on docs.superoffice.com.
 
-At the root of the repo, you can find general pages that relate to the overall website and a set of subfolders that match the features/APIs or common scenarios.
+At the root of the repo, there is a folder named *docs*. In it, you can find general pages that relate to the overall website and a set of subfolders that match the features/APIs or common scenarios.
 
 ### Media subfolder
 
@@ -85,4 +85,4 @@ All major folders have a */includes* subfolder for reusable content in that sect
 
 ### Markdown file template
 
-TBD
+We use the Blueprint extension for Visual Studio Code. Available templates are located in the *blueprint-templates* folder at the root of the repo.
