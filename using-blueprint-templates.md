@@ -6,7 +6,7 @@ Using Blueprint templates in Visual Studio Code
 
 ## Pre-requisites
 
-* A local clone of the [SuperOffice Docs repo](https://github.com/SuperOfficeDocs) (planningdocs)
+* A local clone of the [SuperOffice Docs repo](https://github.com/SuperOfficeDocs)
 * Visual Studio Code
 
 ## Getting started
