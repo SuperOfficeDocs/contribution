@@ -33,7 +33,7 @@ You don't have to escape angle brackets in text formatted as inline code or in c
 
 ## Apostrophes and quotation marks
 
-Use basic straight apostrophes and quotation marks. If copying into Markdown, use **Ctrl+Shift+V**.
+Use basic straight apostrophes and quotation marks. If copying into Markdown, use Ctrl+Shift+V.
 
 ## Blockquotes
 
@@ -61,6 +61,10 @@ TBD
 
 Even though Markdown supports inline HTML, we don't use it on docs.superoffice.com. It is likely to cause build errors or warnings.
 
+**Exceptions:**
+
+* Use `<br>` to break a line in table cells and alerts.
+
 ## Images
 
 You can use either *.jpg* or *.png* images. Place images in the appropriate *media* folder.
@@ -74,6 +78,28 @@ You can use either *.jpg* or *.png* images. Place images in the appropriate *med
 ```markdown
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ```
+
+### Reference-style images
+
+We use reference-style links for image paths to improve readability of the Markdown and simplify maintenance.
+
+Example: the above image of Yaktocat written as reference-style
+
+Inline:
+
+```markdown
+![Image of Yaktocat][img1]
+```
+
+Reference section at the end of the file:
+
+```markdown
+<!-- Referenced images-->
+[img1]: https://octodex.github.com/images/yaktocat.png
+```
+
+> [!NOTE]
+> We prefix all labels referring to images with **img**.
 
 ### Icons
 
@@ -112,6 +138,12 @@ Here are requirements and considerations for include files:
 * Don't nest includes.
 
 * Place images used by includes in a */includes/media* subfolder.
+
+* Don't add metadata at the top of inclide files.
+
+* Relative links within an include file are relative to that file, not where it is included.
+
+* You can use reference-style links within the file, but not to set the path for the \[!INCLUDE\]
 
 ## Links
 
@@ -167,5 +199,5 @@ For information about the syntax for links, see [How to use links in docs](links
   * lists
   * tables
   * images
-* Press **Enter** once to break within a paragraph (\<br\>). Press **Enter** twice to start a new paragraph.
+* Press **Enter** once to break within a paragraph (\<br>). Press **Enter** twice to start a new paragraph.
 * Use horizontal rulers sparingly if at all. Type 3 or more consecutive hyphens to produce an \<hr\>.
