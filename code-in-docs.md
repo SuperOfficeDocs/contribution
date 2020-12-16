@@ -2,7 +2,7 @@
 title: How to include code in docs
 ---
 
-There are multiple ways to include code in a page published on docs.microsoft.com:
+There are multiple ways to include code in a page published on docs.superoffice.com:
 
 * Individual words within a line
 * Code blocks in the current Markdown file
