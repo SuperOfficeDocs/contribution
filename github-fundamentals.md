@@ -30,6 +30,15 @@ We use feature branches to isolate work in progress from the completed work in t
 * \<docs issue>-description
 * bugfix-description
 
+**Create a new local branch with Git Bash:**
+
+```sh
+git checkout -b "branchname"
+git push -u origin "branchname"
+```
+
+Each Git client is different, so consult the help for your preferred client.
+
 ### Pull requests
 
 * Require a pull request to merge code.
@@ -85,4 +94,4 @@ All major folders have a */includes* subfolder for reusable content in that sect
 
 ### Markdown file template
 
-We use the Blueprint extension for Visual Studio Code. Available templates are located in the *blueprint-templates* folder at the root of the repo.
+We use the [Blueprint extension](using-blueprint-templates.md) for Visual Studio Code. Available templates are located in the *blueprint-templates* folder at the root of the repo.
