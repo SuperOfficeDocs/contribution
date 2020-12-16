@@ -50,6 +50,33 @@ Use either the title of the page you are linking to or a friendly, descriptive l
 
 `[link text](/folder/page.md)`
 
+## Reference-style links
+
+We use reference-style links to make the source content easier to read and maintain. You move the (long) URLs to the end of the file and reference them by labels in square brackets.
+
+**Before:**
+
+```markdown
+[link to Google!](http://google.com)
+```
+
+**After:**
+
+Inline text:
+
+```markdown
+[link to Google!][1]
+```
+
+Link references at the end of the file:
+
+```markdown
+<!-- Referenced links -->
+[1]: http://google.com/
+```
+
+Make sure that you include the space after the colon, before the link. Otherwise, the link will be broken.
+
 ## Bookmark links (anchors)
 
 Bookmark links go to a specific heading on the current or another page.
