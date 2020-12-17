@@ -128,7 +128,7 @@ git clone https://github.com/<github-username>/<repo>.git
 
   Directly:
 ```sh
-https://github.com/SuperOfficeDocs/<repo>.git
+git clone https://github.com/SuperOfficeDocs/<repo>.git
 ```
 
 2. When you're prompted, enter your GitHub credentials.
