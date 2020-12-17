@@ -141,4 +141,4 @@ You can now explore the folder to see the structure.
 
 Continue reading our [GitHub fundamentals](github-fundamentals.md) and explore the other guidelines in the contribution guide.
 
-Want to dive right in? Check out the [workflows](workflows.md).
+Want to dive right in? Check out the [workflows](workflow.md).
