@@ -63,3 +63,32 @@ for(Integer i = 1; i < 10; i++) {
 Avoid IDE screenshots with code, unless you want to illustrate something specific about the IDE.
 
 Fenced code blocks can be copied and pasted and they're indexed by search engines.
+
+
+## Tabbed content
+
+You can create tabbed content in markdown.
+
+### Syntax
+
+* Start a tab by a special markdown title (any level).
+  * Title content should be a markdown link.
+  * Link target is #tab/{tabid} or #tab/{tabid}/{condition}
+* Continue by any other content.
+* End by a markdown hr.
+
+#### Example
+Tab group 1:
+```
+# [Tab Text 1](#tab/tabid-1)
+
+Tab content-1-1.
+
+# [Tab Text 2](#tab/tabid-2)
+
+Tab content-2-1.
+
+***
+```
+
+Read about it, and more advanced options, in the [DocFx specification](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html?tabs=tabid-1%2Ctabid-a#tabbed-content).
