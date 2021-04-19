@@ -45,7 +45,7 @@ If you are making more complex edits you may want to [get SuperOfficeDocs runnin
 [3]: https://en.wikipedia.org/wiki/Markdown
 [4]: http://docs.superoffice.com
 [5]: how-to-edit-an-article-in-browser.md
-[6]: markdown-guide-to-docfx.md
+[6]: ../markdown-guide/index.md
 [7]: https://github.com/xoofx/markdig
 [8]: get-superoffice-docs-running-locally.md
 [9]: how-to-edit-an-article.md
