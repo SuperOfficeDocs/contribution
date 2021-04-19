@@ -151,9 +151,9 @@ Using Git Bash, prepare to run the **clone** command to pull a copy of a reposit
 
 You can now explore the folder to see the structure.
 
-Continue reading our [GitHub fundamentals](github-fundamentals.md) and explore the other guidelines in the contribution guide.
+Continue reading our [contribution guide][2] and explore the other guidelines in the contribution guide.
 
-Want to dive right in? Check out our [way-of-work cheat sheet](way-of-work.md).
+Want to dive right in? Check out our [Git cheat sheet](git-cheat-sheet.md).
 
 <!-- Referenced links-->
 [1]: https://github.com/join
@@ -165,7 +165,7 @@ Want to dive right in? Check out our [way-of-work cheat sheet](way-of-work.md).
 [7]: https://help.github.com/articles/github-glossary
 [8]: https://help.github.com/articles/good-resources-for-learning-git-and-github/
 [9]: https://code.visualstudio.com/
-[10]: markdown-reference.md
+[10]: ../markdown-guide/index.md
 [11]: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack
 [12]: https://marketplace.visualstudio.com/items?itemName=teamchilla.blueprint
 [13]: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens

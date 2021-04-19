@@ -102,5 +102,5 @@ Tab content-2-1.
 Read about it, and more advanced options, in the [DocFx specification][2].
 
 <!-- Referenced links -->
-[1]: ../stykle-guide/formatting.md
+[1]: ../style-guide/formatting.md
 [2]: https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html?tabs=tabid-1%2Ctabid-a#tabbed-content

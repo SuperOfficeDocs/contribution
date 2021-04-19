@@ -73,7 +73,7 @@ When you are happy with your changes, you can move on to pushing it to your fork
 
 <!-- Referenced links-->
 [1]: get-superoffice-docs-running-locally.md
-[2]: ../markdown-guide/indecx.md
+[2]: ../markdown-guide/index.md
 [3]: https://github.com/SuperofficeDocs/superoffice-docs
 [4]: https://github.com/SuperOfficeDocs/superoffice-docs/issues
 [5]: https://git-scm.com/book/en/v2
