@@ -1,8 +1,13 @@
 ---
-title: Git workflows for SuperOffice Docs
+uid: git_commands
+title: How to include code in docs
+locale: en
+so.topic: reference
+so.date: 04.19.2021
+so.author: Bergfrid Dias
 ---
 
-# Workflows
+# Git commands
 
 Here we are using the Git Bash command line.
 
@@ -33,41 +38,41 @@ git status
 
 1. Tell Git what you want to save.
 
-  * Everything:
+    * Everything:
 
-```sh
-git add --all
-```
+    ```sh
+    git add --all
+    ```
 
-  * A specific folder (recursive):
+    * A specific folder (recursive):
 
-```sh
-git add docs/onsite
-```
+    ```sh
+    git add docs/onsite
+    ```
 
-* A specific file:
+    * A specific file:
 
-```sh
-git add docs/index.md
-```
+    ```sh
+    git add docs/index.md
+    ```
 
 2. Commit your saved changes to your local repository.
 
-```sh
-git commit -m "Short description of changes"
-```
+    ```sh
+    git commit -m "Short description of changes"
+    ```
 
 3. Send your changes to GitHub.
 
-```sh
-git push
-```
+    ```sh
+    git push
+    ```
 
-  * If you didn't set the upstream when you created the branch, you need to do it now:
+    * If you didn't set the upstream when you created the branch, you need to do it now:
 
-```sh
-git push --set-upstream origin <branchname>
-```
+    ```sh
+    git push --set-upstream origin <branchname>
+    ```
 
 You've done it! Your code is now up in your GitHub repository!
 

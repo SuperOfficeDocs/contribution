@@ -1,6 +1,14 @@
 ---
+uid: formatting
+locale: en
 title: Text formatting guidelines
+description: Text formatting guidelines
+so.topic: reference
+so.date: 04.19.2021
+so.author: Bergfrid Dias
 ---
+
+# Text formatting guidelines
 
 Using bold, italic, and code style for text elements consistently and appropriately improves the
 readability and helps to avoid misunderstandings.

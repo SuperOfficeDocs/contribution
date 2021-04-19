@@ -1,8 +1,15 @@
 ---
+uid: links-in-docs
+locale: en
 title: How to use links in docs
+so.topic: reference
+so.date: 04.19.2021
+so.author: Bergfrid Dias
 ---
 
-This section describes how to use links from pages hosted at docs.superoffice.com.
+# How to use links in docs
+
+This section describes how to use links from pages hosted at `docs.superoffice.com`.
 
 We differentiate between links to content on the same page, links to neighboring pages, and links to external websites and URLs.
 
@@ -23,7 +30,7 @@ Example:
 Use either the title of the page you are linking to or a friendly, descriptive label.
 
 > [!NOTE]
-> Don't use "click here." It is bad for SEO and blinds the reader.
+> Don't use "click here". It is bad for SEO and blinds the reader.
 
 ## Links from one page to another
 
@@ -38,7 +45,7 @@ Use either the title of the page you are linking to or a friendly, descriptive l
 
 `[link text](../page.md)`
 
-**Link to a page in a subfolder:**
+**Link to a page in a sub-folder:**
 
 `[link text](folder/page.md)`
 
@@ -115,4 +122,4 @@ or
 
 ## xref (cross reference) links
 
-Currently not supported for docs.superoffice.com.
+Currently not supported for SuperOfficeDocs.
