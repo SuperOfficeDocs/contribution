@@ -40,7 +40,7 @@ Use code style for:
 * Inline code blocks (surrounded by \`)
 * Fenced code blocks (surrounded by \`\`\`) spanning multiple lines.
 
-For details, see [How to include code in docs](code-in-docs.md).
+For details, see [How to include code in docs][1].
 
 ## Headings and link text
 
@@ -51,3 +51,6 @@ Don't use italics, bold, or code in headings or link text.
 * Capitalize the first letter of key names.
 * Don't use italics, bold, or code.
 * Use "+" to join keys that are pressed at the same time.
+
+<!-- Referenced links-->
+[1]: ../markdown-guide/code-in-docs.md
