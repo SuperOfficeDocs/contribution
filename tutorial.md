@@ -165,7 +165,7 @@ Want to dive right in? Check out our [Git cheat sheet](git-cheat-sheet.md).
 [7]: https://help.github.com/articles/github-glossary
 [8]: https://help.github.com/articles/good-resources-for-learning-git-and-github/
 [9]: https://code.visualstudio.com/
-[10]: ../markdown-guide/index.md
+[10]: markdown-guide/index.md
 [11]: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack
 [12]: https://marketplace.visualstudio.com/items?itemName=teamchilla.blueprint
 [13]: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
