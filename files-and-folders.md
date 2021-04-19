@@ -56,5 +56,5 @@ All major folders have a */includes* subfolder for reusable content in that sect
 We use the [Blueprint extension][2] for Visual Studio Code. Available templates are located in the *blueprint-templates* folder at the root of the repo.
 
 <!-- Referenced links-->
-[1]: ../markdown-guide/index.md
-[2]: ../markdown-guide/using-blueprint-templates.md
+[1]: markdown-guide/index.md
+[2]: markdown-guide/using-blueprint-templates.md

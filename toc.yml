@@ -2,22 +2,22 @@ items:
 - name: About
   href: about/index.md
 - name: Contribute
-  href: contribute/index.md
+  href: index.md
   items:
   - name: How to edit an article in browser
-    href: contribute/how-to-edit-an-article-in-browser.md
+    href: how-to-edit-an-article-in-browser.md
   - name: Get SuperOfficeDocs running locally
-    href: contribute/get-superoffice-docs-running-locally.md
+    href: get-superoffice-docs-running-locally.md
   - name: Tutorial
-    href: contribute/tutorial.md
+    href: tutorial.md
   - name: How to edit an article
-    href: contribute/how-to-edit-an-article.md
+    href: how-to-edit-an-article.md
   - name: Files and folders
-    href: contribute/files-and-folders.md
+    href: files-and-folders.md
   - name: Branch strategy
-    href: contribute/branch-strategy.md
+    href: branch-strategy.md
   - name: Git cheat-sheet
-    href: contribute/git-cheat-sheet.md
+    href: git-cheat-sheet.md
 - name: Markdown guide
   href: markdown-guide/index.md
   items:
