@@ -157,7 +157,7 @@ Want to dive right in? Check out our [Git cheat sheet](git-cheat-sheet.md).
 
 <!-- Referenced links-->
 [1]: https://github.com/join
-[2]: index.md
+[2]: overview.md
 [3]: https://git-scm.com/download/win
 [4]: https://git-scm.com/download/mac
 [5]: https://git-scm.com/download/linux

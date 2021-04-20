@@ -39,7 +39,7 @@ Follow the instructions here within these pages, or learn the basic steps for [c
 
 <!-- Referenced links-->
 [1]: http://www.superoffice.com
-[2]: ../index.md
+[2]: ../index.yml
 
 <!-- Referenced images-->
 [img1]: media/github-superoffice-docs.png
