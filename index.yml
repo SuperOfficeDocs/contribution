@@ -1,0 +1,71 @@
+### YamlMime:SubCategory
+
+title: Contribute
+summary: Contribute
+
+metadata:
+  title: Contribute
+  description: Contribute
+  ms.topic: landing-page
+  ms.date: 04.20.2021
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Getting started
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Contribution guide
+          url: overview.md
+      - linkListType: get-started
+        links:
+        - text: Get SuperOfficeDocs running locally
+          url: get-superoffice-docs-running-locally.md
+        - text: Tutorial
+          url: tutorial.md
+        - text: Files and folders
+          url: files-and-folders.md
+  # Card
+  - title: Editing and authoring
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: How to edit an article in browser
+          url: how-to-edit-an-article-in-browser.md
+        - text: How to edit an article locally
+          url: how-to-edit-an-article.md
+        - text: Style guide
+          url: style-guide/index.md
+        - text: Guidelines for formatting
+          url: style-guide/formatting.md
+  # Card
+  - title: Markdown
+    linkLists:
+      - linkListType: learn
+        links:
+        - text: Markdown guide
+          url: markdown-guide/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Using blueprint templates
+          url: markdown-guide/using-blueprint-templates.md
+      - linkListType: reference
+        links:
+        - text: Links in docs
+          url: markdown-guide/links-in-docs.md
+        - text: Metadata
+          url: markdown-guide/metadata.md
+        - text: Code in docs
+          url: markdown-guide/code-in-docs.md
+  # Card
+  - title: Reference
+    linkLists:
+      - linkListType: reference
+        links:
+        - text: Branch strategy
+          url: branch-strategy.md
+        - text: Git cheat-sheet
+          url: git-cheat-sheet.md
