@@ -1,11 +1,11 @@
 ### YamlMime:SubCategory
 
 title: Contribute
-summary: Contribute
+summary: Thanks for being awesome & contributing to SuperOffice Docs! Our community is better because of your contributions... let's get started.
 
 metadata:
   title: Contribute
-  description: Contribute
+  description: Having our documentation center on GitHub brings many benefits to our community as we can now build SuperOffice documentation in the open, together, as a community. If you see areas for improvement or gaps in the documentation, you can easily update and/or fill those gaps. SuperOffice Docs will be a living and breathing, community-generated, collection of awesome learning materials moving forward.
   ms.topic: landing-page
   ms.date: 04.20.2021
 
@@ -28,6 +28,19 @@ landingContent:
           url: tutorial.md
         - text: Files and folders
           url: files-and-folders.md
+        - text: What is Markdown?
+          url: https://en.wikipedia.org/wiki/Markdown
+        - text: DocFX
+          url: https://dotnet.github.io/docfx/
+        - text: Markdig
+          url: https://github.com/xoofx/markdig
+  # Card
+  - title: Feedback
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Create an issue
+          url: https://github.com/SuperOfficeDocs/superoffice-docs/issues
   # Card
   - title: Editing and authoring
     linkLists:
@@ -37,35 +50,73 @@ landingContent:
           url: how-to-edit-an-article-in-browser.md
         - text: How to edit an article locally
           url: how-to-edit-an-article.md
+      - linkListType: reference
+        links:
         - text: Style guide
           url: style-guide/index.md
         - text: Guidelines for formatting
           url: style-guide/formatting.md
+        - text: Our branch strategy
+          url: branch-strategy.md
+        - text: Git cheat-sheet
+          url: git-cheat-sheet.md
   # Card
   - title: Markdown
     linkLists:
-      - linkListType: learn
+      - linkListType: reference
         links:
         - text: Markdown guide
           url: markdown-guide/index.md
-      - linkListType: how-to-guide
-        links:
-        - text: Using blueprint templates
-          url: markdown-guide/using-blueprint-templates.md
-      - linkListType: reference
-        links:
         - text: Links in docs
           url: markdown-guide/links-in-docs.md
         - text: Metadata
           url: markdown-guide/metadata.md
         - text: Code in docs
           url: markdown-guide/code-in-docs.md
-  # Card
-  - title: Reference
+      - linkListType: how-to-guide
+        links:
+        - text: Using blueprint templates
+          url: markdown-guide/using-blueprint-templates.md
+# Card
+  - title: Git resources
     linkLists:
       - linkListType: reference
         links:
-        - text: Branch strategy
-          url: branch-strategy.md
-        - text: Git cheat-sheet
-          url: git-cheat-sheet.md
+        - text: Create an account
+          url: https://github.com/join
+        - text: Git for Windows
+          url: https://git-scm.com/download/win
+        - text: Git for Mac
+          url: https://git-scm.com/download/mac
+        - text: Git for Linux
+          url: https://git-scm.com/download/linux
+        - text: Glossary
+          url: https://help.github.com/articles/github-glossary
+        - text: Learning Git and GitHub
+          url: https://help.github.com/articles/good-resources-for-learning-git-and-github/
+        - text: GitBook
+          url: https://git-scm.com/book/en/v2
+# Card
+  - title: Visual Studio Code
+    linkLists:
+      - linkListType: reference
+        links:
+        - text: Get VS Code
+          url: https://code.visualstudio.com/
+        - text: Docs Authoring Pack
+          url: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack
+        - text: Blueprint - new files and folders from templates
+          url: https://marketplace.visualstudio.com/items?itemName=teamchilla.blueprint
+        - text: GitLens - Git supercharged
+          url: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+        - text: Markdown Kit
+          url: https://marketplace.visualstudio.com/items?itemName=svsool.markdown-kit
+        - text: Sort lines
+          url: https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
+        - text: Markdownlint
+          url: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+        - text: LinkCheckMD
+          url: https://marketplace.visualstudio.com/items?itemName=blackmist.LinkCheckMD
+        - text: Code spell checker
+          url: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+          

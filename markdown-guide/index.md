@@ -211,11 +211,11 @@ To include an image, a call-out, a new paragraph, or a child list, indent that c
 
 ## Metadata (front-matter)
 
-We [use Yaml key-value front-matter syntax to embed metadata][5] in  Markdown files.
+We [use Yaml key-value front-matter syntax to embed metadata][6] in  Markdown files.
 
 ## Source code
 
-For information about the syntax for source code, see [How to include code in docs][6].
+For information about the syntax for source code, see [How to include code in docs][7].
 
 ## Special characters that need to be escaped
 
