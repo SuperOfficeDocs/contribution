@@ -2,8 +2,10 @@ items:
 - name: About
   href: about/index.md
 - name: Contribute
-  href: overview.md
+  href: index.yml
   items:
+  - name: Overview
+    href: overview.md
   - name: How to edit an article in browser
     href: how-to-edit-an-article-in-browser.md
   - name: Get SuperOfficeDocs running locally
