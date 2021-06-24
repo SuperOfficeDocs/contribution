@@ -1,5 +1,5 @@
 ---
-uid: how-to-edit-an-article
+uid: how_to_edit_an_article
 locale: en
 title: Edit an article
 description: Edit an article
@@ -16,7 +16,7 @@ so.author: Tony Yates
 
   2. **Markdown**: Docs uses markdown syntax to format content. Markdown is simple to pick up on. Familiarize yourself with the [Markdown Guide to DocFx][2] before making updates to content.
 
-Now that you've gotten SuperOfficeDocs running locally (congrats BTW!) we will talk through the steps for making an edit, previewing the edit, pushing it to your forked repo, then creating a pull request.
+Now that you've gotten SuperOfficeDocs running locally (congrats BTW!), we will talk through the steps for making an edit, previewing the edit, pushing it to your forked repo, then creating a pull request.
 
 ## How to edit and preview content
 
@@ -36,7 +36,7 @@ Now that you've gotten SuperOfficeDocs running locally (congrats BTW!) we will t
     * `origin` is your forked repo
     * `upstream` is the main SuperOfficeDocs repo
 
-3. Create an [Issue][4] on GitHub that corresponds with the edit you're working on by clicking the **New Issue** button in the browser. Be sure to include relevant information providing context to the issue in the description or comment section. This helps reviewers understand what you're working on.
+3. Create an [issue][4] on GitHub that corresponds with the edit you're working on by clicking the **New Issue** button in the browser. Be sure to include relevant information providing context to the issue in the description or comment section. This helps reviewers understand what you're working on.
 
     Make note of the **issue number** that GitHub generates.
 
@@ -60,13 +60,13 @@ When you are happy with your changes, you can move on to pushing it to your fork
 
 2. Use `git add [INSERT FILE NAME]` to stage a single file or `git add .` to stage **all** modified files to be committed.
 
-3. Use `git commit -m [INSERT YOUR COMMIT MESSAGE HERE]` to commit your files. The `-m` stands for *message*. Replace the *INSERT YOUR COMMIT MESSAGE HERE* text with brief and relevant text summarizing your commit.
+3. Use `git commit -m [INSERT YOUR COMMIT MESSAGE HERE]` to commit your files. The `-m` stands for *message*. Replace the *INSERT YOUR COMMIT MESSAGE HERE* text with brief and relevant text summarizing your commit. Remember to include the issue ID!
 
 4. Use `git push origin [INSERT A NEW BRANCH NAME HERE]` to push your updated files to your repo. Replace the *INSERT A NEW BRANCH NAME HERE* with the name of your new branch
 
 5. Go to your forked GitHub repo on GitHub.com. GitHub should detect the updated code and prompt you to make a pull request.
 
-6. Create a pull request by clicking the **Compare and create pull request** button. In the description or comments section be sure to include the text "Resolves ```#[INSERT ISSUE NUMBER HERE]``` where your previously created issue number is associated with this pull request.
+6. Create a pull request by clicking the **Compare and create pull request** button. In the description or comments section be sure to include the text "Resolves `#[INSERT ISSUE NUMBER HERE]` where your previously created issue number is associated with this pull request.
 
 > [!TIP]
 > Want more info on Git? Check out the free, online [GitBook][5].
