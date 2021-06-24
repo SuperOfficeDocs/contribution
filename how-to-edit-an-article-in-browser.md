@@ -1,5 +1,5 @@
 ---
-uid: how-to-edit-an-article-in-browser
+uid: how_to_edit_an_article_in_browser
 locale: en
 title: Edit an article in the browser
 description: Edit an article in the browser
@@ -10,13 +10,16 @@ so.author: Tony Yates
 
 # Edit an article in the browser
 
-The easiest way to edit a SuperOffice Doc file is to edit it in the browser on GitHub.com.
+The easiest way to edit a SuperOffice Docs file is to edit it in the browser on GitHub.com.
 
-## The Steps
+> [!NOTE]
+> If you are working on an existing issue, self-assign. Otherwise, first, please create a new issue. Reference the issue ID in both the branch name, commit messages, and pull request.
+
+## The steps
 
 1. Find any file in the SuperOfficeDocs repo that you want to edit. The file will typically reside in a sub-folder of the *docs** folder (it may be a few levels down) and it will most likely be an *index.md* file.
 
-2. Click the **Edit** button icon.
+2. Click the **Edit** button.
 
     ![Edit article in browser][img1]
 
@@ -28,7 +31,7 @@ The easiest way to edit a SuperOffice Doc file is to edit it in the browser on G
 
     ![Edit Markdown in browser][img3]
 
-5. Update the title to include the issue #ID & submit the Pull Request
+5. Update the title to include the issue #ID and submit the pull request
 
   ![Edit Markdown in browser][img4]
 
