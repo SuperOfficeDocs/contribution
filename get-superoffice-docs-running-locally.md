@@ -40,6 +40,9 @@ The previous command will have created a folder called *superoffice-docs* in the
 c:\dev> cd superoffice-docs
 ```
 
+> [!NOTE]
+> Relative links between SuperOfficeDocs repositories use the repository name! We recommend that you clone all relevant repositories from SuperOfficeDocs to the **same folder** (such as *c:\dev*) and **don't change the name**.
+
 ### Include API documentation
 
 If you want to include the API documentation, you'll need to download the [SuperOffice NuGet packages][4] into a **sub-folder** of the *superoffice-docs* root folder called *src*. The reason is that the project reads the XML comments in the source code and creates API documentation from that, in addition to the documentation center articles.
