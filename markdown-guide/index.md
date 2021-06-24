@@ -117,6 +117,7 @@ Even though Markdown supports inline HTML, we (generally) don't use it on `docs.
 **Exceptions:**
 
 * Use `<br>` to break a line in table cells and alerts.
+* Download links, for example, `<a href="../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>`
 
 ## Images
 
@@ -156,13 +157,13 @@ Reference section at the end of the file:
 
 ### Icons
 
-Reusable icons are placed in the repo's top-level *media/icons/* folder. Don't set alt text for icons.
+Reusable icons are placed in the repository's top-level *media/icons/* folder. Don't set alt text for icons.
 
 ## Included Markdown files
 
 When the same content should be repeated on multiple pages, you can use includes.
 
-Reusable content snippets are placed in their own Markdown files in the */includes* subfolder and referenced from where it should be inserted. The reference is replaced at build time by the extensions.
+Reusable content snippets are placed in their own Markdown files in the */includes* subfolder and referenced from where they should be inserted. The reference is replaced at build time by the extensions.
 
 > [!NOTE]
 > Includes are not rendered in the GitHub preview.
@@ -219,22 +220,27 @@ For information about the syntax for source code, see [How to include code in do
 
 ## Special characters that need to be escaped
 
-<dl>
-<dt>\</dt><dd>backslash</dd>
-<dt>`</dt><dd>backtick</dd>
-<dt>*</dt><dd>asterisk (star)</dd>
-<dt>_</dt><dd>underscore</dd>
-<dt>{}</dt><dd>curly braces</dd>
-<dt>[]</dt><dd>square brackjets</dd>
-<dt>()</dt><dd>parentheses</dd>
-<dt>#</dt><dd>hash mark</dd>
-<dt>+</dt><dd>plus sign</dd>
-<dt>-</dt><dd>minus sign</dd>
-<dt>.</dt>
-<dd>dot (period)</dd>
-<dt>!</dt>
-<dd>exclamation mark</dd>
-</dl>
+Markdown treats the following characters as ordinary text if there is a backslash escape character in front of them. For example, `\#`. If you don't use escape characters, you can get undesired results when you type them directly.
+
+| Character | Description |
+|---|---|
+| \ | backslash |
+| ` | backtick |
+| * | asterisk (star) |
+| _ | underscore |
+| {} | curly braces |
+| [] | square brackets |
+| () | parentheses |
+| # | hash mark |
+| + | plus sign |
+| - | minus sign (hyphen) |
+| . | dot (period) |
+| ! | exclamation mark |
+
+### Exceptions
+
+* Follow standard conventions for fenced and inline code. If you wouldn't escape it in the source code file, don't escape it in Markdown-formatted code.
+* Underscore characters within a word. For example, you can write `my_function` without escaping. However, leading and trailing underscores require it: `\_my_function`.
 
 ## Tables
 
