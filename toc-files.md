@@ -88,8 +88,7 @@ items:
 1. Locate the correct *toc.yml*.
 2. Edit the **href**.
 
-> [!TIP]
-> To test that the path and file name are correct, Ctrl-click the link in VS Code. If the target file opens, you're good to go.
+[!include[ALT](includes/tip-check-link.md)]
 
 ### Add a new file to the TOC
 

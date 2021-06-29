@@ -4,6 +4,7 @@ locale: en
 title: Landing pages
 description: How to work with category files (index.yml) on SuperOfficeDocs
 so.topic: concept
+keywords: landing page, category page, YamlMime:Category, YamlMime:SubCategory
 so.date: 06.28.2021
 so.author: Bergfrid Dias
 ---
@@ -155,10 +156,9 @@ landingContent:
 ### Fix broken link
 
 1. Locate the correct *index.yml*.
-2. Edit the value of the `url` field.
+2. Edit the **url**.
 
-> [!TIP]
-> To test that the path and file name are correct, Ctrl-click the link in VS Code. If the target file opens, you're good to go.
+[!include[ALT](includes/tip-check-link.md)]
 
 ### Add a link to an existing card
 
@@ -184,6 +184,27 @@ landingContent:
         itemType: reference
         url: requirements/index.md
     ```
+
+### Delete card or link
+
+Deleting a card or a link is trivial. However, the schema specify a minimum and maximum number of items and you have to make sure you don't exceed those limits.
+
+You'll find some of the important **validation rules** as comments in the *index.yml* files. For example:
+
+```yml
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+```
+
+```yml
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: Resources # < 60 chars (optional)
+      summary: "System requirements, compatibility, config, and debug" # < 160 chars (optional)
+```
 
 <!-- Referenced links -->
 [1]: https://github.com/SuperOfficeDocs/feedback/issues/new?assignees=&labels=&template=improve-the-site.md&title=

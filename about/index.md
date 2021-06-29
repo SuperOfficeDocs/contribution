@@ -19,15 +19,15 @@ The combined docs come from several repositories, all of which are intuitively n
 
 ## Interactive documentation
 
-You may click on the `Share` button to share interesting content with like-minded folk.
+You may click on the **Share** button to share interesting content with like-minded folk.
 
 ![Share][img2]
 
-You may click on the `Feedback` button to provide relevant feedback on specific articles.
+You may click on the **Feedback** button to provide relevant feedback on specific articles.
 
 ![Feedback][img3]
 
-You may click on the `Edit` button to suggest an improvement on the existing article content.
+You may click on the **Edit** button to suggest an improvement on the existing article content.
 
 ![Edit][img4]
 

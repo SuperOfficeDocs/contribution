@@ -50,6 +50,10 @@ landingContent:
           url: how-to-edit-an-article-in-browser.md
         - text: How to edit an article locally
           url: how-to-edit-an-article.md
+        - text: How to edit table of contents
+          url: toc-files.md
+        - text: How to edit landing pages
+          url: category-files.md
       - linkListType: reference
         links:
         - text: Style guide
