@@ -34,6 +34,20 @@ Resolve any merge conflicts.
 git status
 ```
 
+Checking status "all the time"? Create a convenient shorthand:
+
+```sh
+git config --global alias.st status
+```
+
+The next time you can just type `git st`. (Don't worry, `git status` will still work.)
+
+## Inspect commit log
+
+```sh
+git log
+```
+
 ## Saving changes to your repository
 
 1. Tell Git what you want to save.
@@ -42,6 +56,12 @@ git status
 
     ```sh
     git add --all
+    ```
+
+    or
+
+    ```sh
+    git add .
     ```
 
     * A specific folder (recursive):
@@ -56,10 +76,13 @@ git status
     git add docs/index.md
     ```
 
+    > [!NOTE]
+    > If you have moved or renamed a file without using `git mv`, you must add both the old and the new file or folder name!
+
 2. Commit your saved changes to your local repository.
 
     ```sh
-    git commit -m "Short description of changes"
+    git commit -m "#[ISSUE ID] Short description of changes"
     ```
 
 3. Send your changes to GitHub.

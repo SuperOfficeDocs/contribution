@@ -1,9 +1,9 @@
 ---
-uid: markdown-metadata
+uid: markdown_metadata
 locale: en
 title: Metadata (Yaml front-matter)
 description: 
-so.topic: reference
+so.topic: concept
 so.date: 04.19.2021
 so.author: Tony Yates
 ---
@@ -41,4 +41,10 @@ so.client: online
 
 If you are editing a currently existing document, you won’t likely have to update much in the front matter section. Though, if you are creating a new document, please fill in as much as possible.
 
+> [!TIP]
+> To get a prompt for what metadata to add, we recommend [Blueprint templates for VS Code][1].
+
 Before any updates get merged in the repo, the reviewers will check this section to make sure everything is good to go. One reason for reviewing this section is because the `uid` (unique identifier) must be, well… unique!
+
+<!-- Referenced links -->
+[1]: using-blueprint-templates.md
