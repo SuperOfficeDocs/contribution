@@ -40,10 +40,6 @@ The examples above would look like this in Markdown:
 * [link example](https://community.superoffice.com/)
 ```
 
-Indent one or more items to create a **nested list**.
-
-To add another element (such as paragraph, code block, or call-out) in a list without breaking the continuity of the list, **indent the element four spaces**.
-
 ## Angle brackets
 
 Angle brackets are used for HTML and XML tags and to denote placeholders in code.
@@ -225,7 +221,7 @@ For information about the syntax for links, see [How to use links in docs][5].
 * Use numbers for ordered lists.
 * Use stars for bulleted lists. Don't use dashes.
 
-To include an image, a call-out, a new paragraph, or a child list, indent that content **4** spaces relative to the list item it belongs to.
+To include an image, a call-out, a new paragraph, or a child list (without breaking the continuity of the list), indent that content **4** spaces relative to the list item it belongs to.
 
 ## Metadata (front-matter)
 

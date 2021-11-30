@@ -3,7 +3,7 @@ uid: links-in-docs
 locale: en
 title: How to use links in docs
 so.topic: reference
-so.date: 04.19.2021
+so.date: 11.30.2021
 so.author: Bergfrid Dias
 ---
 
@@ -119,6 +119,20 @@ or
 ```markdown
 ## <a name="anchor-label" />Heading text
 ```
+
+## Link to download a file
+
+1. Place the file to be downloaded to the *assets/downloads* folder.
+2. Format the link like this:
+
+    ```markdown
+    <a href="RELATIVEPATH/assets/downloads/FILE" download>LINKTEXT</a>
+    ```
+
+    Don't use reference-style links for downloads.
+
+> [!NOTE]
+> Certain file types don't play well when the user tries to download from a browser. Please ZIP files available for download to ensure they can be downloaded.
 
 ## xref (cross reference) links
 
