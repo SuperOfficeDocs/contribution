@@ -168,6 +168,18 @@ Reference section at the end of the file:
 > [!NOTE]
 > We prefix all labels referring to images with **img**.
 
+### Screenshots
+
+All screenshots are styled with a green frame like this:
+
+![Example image styling -screenshot][img1]
+
+To produce this effect, add the string " -screenshot" at the end of the alt tag:
+
+```markdown
+![Alt text -screenshot][img1]
+```
+
 ### Icons
 
 Reusable icons are placed in the repository's top-level *media/icons/* folder. Don't set alt text for icons.
@@ -294,7 +306,7 @@ Here are a few resources to help with Markdown to help get you started:
 * [Dillinger.io][3] is an online Markdown tool that can help convert HTML to Markdown and to work with Markdown
 * Here's a helpful [Markdown plugin for Visual Studio Code][4]
 
-<!-- -->
+<!-- Referenced links -->
 [1]: ../style-guide/index.md
 [2]: https://www.markdownguide.org/getting-started/
 [3]: https://dillinger.io/
@@ -302,3 +314,6 @@ Here are a few resources to help with Markdown to help get you started:
 [5]: metadata.md
 [6]: links-in-docs.md
 [7]: code-in-docs.md
+
+<!-- Referenced images -->
+[img1]: ../media/plain-action-buttons.png
