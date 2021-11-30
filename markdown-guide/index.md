@@ -237,7 +237,10 @@ To include an image, a call-out, a new paragraph, or a child list (without break
 
 ## Metadata (front-matter)
 
-We [use Yaml key-value front-matter syntax to embed metadata][6] in  Markdown files.
+We [use Yaml key-value front-matter syntax to embed metadata][5] in Markdown files.
+
+> [!NOTE]
+> The date format is MM.DD.YYYY. For example, `so.date: 11.30.2021`
 
 ## Source code
 
