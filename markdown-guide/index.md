@@ -4,7 +4,7 @@ locale: en
 title: Markdown guide for docs.superoffice.com
 description: This Markdown style guide is intended to ensure that the markup of SuperOfficeDocs has a consistent style, and is easy to navigate and maintain.
 so.topic: reference
-so.date: 04.19.2021
+so.date: 11.30.2021
 so.author: Bergfrid Dias, Tony Yates
 ---
 
@@ -39,6 +39,10 @@ The examples above would look like this in Markdown:
 * Unordered list items
 * [link example](https://community.superoffice.com/)
 ```
+
+Indent one or more items to create a **nested list**.
+
+To add another element (such as paragraph, code block, or call-out) in a list without breaking the continuity of the list, **indent the element four spaces**.
 
 ## Angle brackets
 
@@ -100,6 +104,19 @@ And here is something to note about call-outs!
 > [!NOTE]
 > You cannot include a call-out inside a table.
 
+To insert a line break in a call-out, separate the text before and after with a line containing only \> like this:
+
+```markdown
+> [!TIP]
+> Paragraph 1.
+>
+> Paragraph 2.
+```
+
+Don't use the HTML `<br />` tag to split call-outs.
+
+Don't stack multiple call-outs directly after each other.
+
 ## Columns
 
 TBD
@@ -116,7 +133,7 @@ Even though Markdown supports inline HTML, we (generally) don't use it on `docs.
 
 **Exceptions:**
 
-* Use `<br>` to break a line in table cells and alerts.
+* Use `<br />` to break a line in table cells.
 * Download links, for example, `<a href="../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>`
 
 ## Images
