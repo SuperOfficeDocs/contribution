@@ -38,5 +38,9 @@ items:
     href: style-guide/formatting.md
 - name: DocFx stuff
   items:
+  - name: Landing pages
+    href: category-files.md
   - name: TOC
     href: toc-files.md
+  - name: YamlMime:ManagedReference
+    href: crmscript-yaml-files.md
