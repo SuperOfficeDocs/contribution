@@ -4,7 +4,7 @@ locale: en
 title: Markdown guide for docs.superoffice.com
 description: This Markdown style guide is intended to ensure that the markup of SuperOfficeDocs has a consistent style, and is easy to navigate and maintain.
 so.topic: reference
-so.date: 04.19.2021
+so.date: 11.30.2021
 so.author: Bergfrid Dias, Tony Yates
 ---
 
@@ -100,6 +100,19 @@ And here is something to note about call-outs!
 > [!NOTE]
 > You cannot include a call-out inside a table.
 
+To insert a line break in a call-out, separate the text before and after with a line containing only \> like this:
+
+```markdown
+> [!TIP]
+> Paragraph 1.
+>
+> Paragraph 2.
+```
+
+Don't use the HTML `<br />` tag to split call-outs.
+
+Don't stack multiple call-outs directly after each other.
+
 ## Columns
 
 TBD
@@ -116,7 +129,7 @@ Even though Markdown supports inline HTML, we (generally) don't use it on `docs.
 
 **Exceptions:**
 
-* Use `<br>` to break a line in table cells and alerts.
+* Use `<br />` to break a line in table cells.
 * Download links, for example, `<a href="../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>`
 
 ## Images
@@ -154,6 +167,18 @@ Reference section at the end of the file:
 
 > [!NOTE]
 > We prefix all labels referring to images with **img**.
+
+### Screenshots
+
+All screenshots are styled with a green frame like this:
+
+![Example image styling -screenshot][img1]
+
+To produce this effect, add the string " -screenshot" at the end of the alt tag:
+
+```markdown
+![Alt text -screenshot][img1]
+```
 
 ### Icons
 
@@ -208,11 +233,14 @@ For information about the syntax for links, see [How to use links in docs][5].
 * Use numbers for ordered lists.
 * Use stars for bulleted lists. Don't use dashes.
 
-To include an image, a call-out, a new paragraph, or a child list, indent that content **4** spaces relative to the list item it belongs to.
+To include an image, a call-out, a new paragraph, or a child list (without breaking the continuity of the list), indent that content **4** spaces relative to the list item it belongs to.
 
 ## Metadata (front-matter)
 
-We [use Yaml key-value front-matter syntax to embed metadata][6] in  Markdown files.
+We [use Yaml key-value front-matter syntax to embed metadata][5] in Markdown files.
+
+> [!NOTE]
+> The date format is MM.DD.YYYY. For example, `so.date: 11.30.2021`
 
 ## Source code
 
@@ -281,7 +309,7 @@ Here are a few resources to help with Markdown to help get you started:
 * [Dillinger.io][3] is an online Markdown tool that can help convert HTML to Markdown and to work with Markdown
 * Here's a helpful [Markdown plugin for Visual Studio Code][4]
 
-<!-- -->
+<!-- Referenced links -->
 [1]: ../style-guide/index.md
 [2]: https://www.markdownguide.org/getting-started/
 [3]: https://dillinger.io/
@@ -289,3 +317,6 @@ Here are a few resources to help with Markdown to help get you started:
 [5]: metadata.md
 [6]: links-in-docs.md
 [7]: code-in-docs.md
+
+<!-- Referenced images -->
+[img1]: ../media/plain-action-buttons.png
