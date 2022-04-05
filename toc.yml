@@ -10,10 +10,12 @@ items:
     href: how-to-edit-an-article-in-browser.md
   - name: Get SuperOfficeDocs running locally
     href: get-superoffice-docs-running-locally.md
-  - name: Tutorial
+  - name: Getting started
     href: tutorial.md
   - name: How to edit an article
     href: how-to-edit-an-article.md
+  - name: How to create a tutorial
+    href: how-to-create-tutorial.md
   - name: Files and folders
     href: files-and-folders.md
   - name: Branch strategy
