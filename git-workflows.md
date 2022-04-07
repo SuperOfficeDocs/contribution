@@ -158,6 +158,63 @@ If you're not ready to commit yet, you can **stash** the changes for later.
 
 ## Share your updates
 
+Saving your changes is a three-step process:
+
+1. Save the changes to your local disk (normal **Save file**).
+2. Save the changes to your local Git repo (the clone). In Git terms, this is to **stage** and **commit**.
+    * Stage (add) means to prepare the set of changes you want to add to Git version control.
+    * Commit means to create a **snapshot** of those changes, adding a new version of those files to the Git history.
+3. Publish the changes to GitHub (sync to cloud). In Git terms, **push**.
+
+> [!TIP]
+> Adding the issue number (for example #256) somewhere in the commit message automatically links your changes to the issue and lets others see what has been done.
+
+### [Git Bash command line](#tab/cmd-4)
+
+1. Go to the repo folder.
+
+2. Run `git add`:
+
+    ```bash
+    git add .
+    ```
+
+    The dot means *add all changes*. See also this [how-to for more fine-grained staging][5].
+
+3. Run `git commit`
+
+    ```bash
+    git commit -m "[INSERT MESSAGE]"
+    ```
+
+    The `-m` means *message follows*.
+
+### [VS Code](#tab/vscode-4)
+
+**Option 1:**
+
+1. Click the source control icon.
+2. Expand **SOURCE CONTROL** and click the three dots to show more actions.
+3. Point to **Changes** and then select **Stage All Changes**.
+
+    ![VS Code stage all changes -screenshot][img8]
+
+4. Click the three dots again, point to **Commit**, and then select **Commit Staged**.
+
+    ![VS Code commit -screenshot][img9]
+
+5. Enter a commit message.
+
+**Option 2:**
+
+1. Click the source control icon.
+2. Expand **SOURCE CONTROL**. Then expand **Changes**.
+3. Click the **+ sign** on the heading to stage all changes. Click the + sign on individual files to stage just those.
+4. Click the **checkmark** on the Source control heading to commit.
+5. Enter a commit message.
+
+***
+
 ## Finish an issue
 
 * PR
@@ -172,6 +229,7 @@ If you're not ready to commit yet, you can **stash** the changes for later.
 [2]: how-to-edit-an-article.md
 [3]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 [4]: branch-strategy.md
+[5]: git-cheat-sheet.md#saving-changes-to-your-repository
 
 <!-- Referenced images -->
 [img1]: media/github-clone.png
@@ -181,3 +239,5 @@ If you're not ready to commit yet, you can **stash** the changes for later.
 [img5]: media/vscode-branch-menu.png
 [img6]: media/vscode-create-branch.png
 [img7]: media/vscode-branches.png
+[img8]: media/vscode-stage-all-changes.png
+[img9]: media/vscode-commit-menu.png
