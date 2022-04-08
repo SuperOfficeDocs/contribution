@@ -12,6 +12,8 @@ items:
     href: get-superoffice-docs-running-locally.md
   - name: Getting started
     href: tutorial.md
+  - name: Everyday workflows
+    href: git-workflows.md
   - name: How to edit an article
     href: how-to-edit-an-article.md
   - name: How to create a tutorial
