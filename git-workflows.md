@@ -241,6 +241,29 @@ The last step before your team-mates see your updates is to sync to the cloud (*
 
 ### [VS Code](#tab/vscode-5)
 
+**Option 1:**
+
+1. Click the source control icon.
+2. Expand **SOURCE CONTROL** and click the three dots to show more actions.
+
+
+**Option 2:**
+
+1. Click the source control icon.
+2. Expand **COMMITS**.
+3. Click the upward-arrow icon on the heading.
+
+    ![VS Code push commit -screenshot][img13]
+
+4. Confirm the action:
+
+    ![VS Code confirm commit -screenshot][img14]
+
+**Option 3:**
+
+1. Click the source control icon.
+1. 
+
 ***
 
 ## Finish an issue
@@ -342,3 +365,6 @@ If you switched context, you should revisit those other branches to wrap up thos
 [img10]: media/github-open-pr.png
 [img11]: media/github-create-pr.png
 [img12]: media/vscode-switch-branch.png
+[img13]: media/vscode-push-commit.png
+[img14]: media/vscode-confirm-commit.png
+ 
