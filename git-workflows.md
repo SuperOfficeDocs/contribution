@@ -4,7 +4,7 @@ title: Common Git workflows
 description: A beginner's guide to Git - step-by-step instructions for daily tasks in different tools
 locale: en
 so.topic: howto
-so.date: 04.07.2022
+so.date: 04.08.2022
 so.author: Bergfrid Dias
 ---
 
@@ -241,13 +241,23 @@ The last step before your team-mates see your updates is to sync to the cloud (*
 
 ### [VS Code](#tab/vscode-5)
 
-**Option 1:**
+**Option 1 (all changes committed but not pushed):**
+
+1. Click the source control icon.
+2. Expand **SOURCE CONTROL**.
+3. Click **Sync Changes**.
+
+    ![VS Code sync changes -screenshot][img15]
+
+**Option 2:**
 
 1. Click the source control icon.
 2. Expand **SOURCE CONTROL** and click the three dots to show more actions.
+3. Select **Push**.
 
+    ![VS Code push -screenshot][img16]
 
-**Option 2:**
+**Option 3:**
 
 1. Click the source control icon.
 2. Expand **COMMITS**.
@@ -258,11 +268,6 @@ The last step before your team-mates see your updates is to sync to the cloud (*
 4. Confirm the action:
 
     ![VS Code confirm commit -screenshot][img14]
-
-**Option 3:**
-
-1. Click the source control icon.
-1. 
 
 ***
 
@@ -290,7 +295,7 @@ Sometimes you'll need to suspend your current work in progress to deal with some
 * Someone asked you to help them out on an urgent issue.
 * Someone requested your review on a pull request.
 
-1. [Stage and commit your changes](#save-the-changes-to-local-git-repo)
+1. [Stage and commit your changes](#save-the-changes-to-local-git-repo).
 
     If this is inconvenient, use **Stash**.
 
@@ -367,4 +372,5 @@ If you switched context, you should revisit those other branches to wrap up thos
 [img12]: media/vscode-switch-branch.png
 [img13]: media/vscode-push-commit.png
 [img14]: media/vscode-confirm-commit.png
- 
+[img15]: media/vscode-sync-changes.png
+[img16]: media/vscode-push.png
