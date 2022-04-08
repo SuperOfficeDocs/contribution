@@ -12,6 +12,12 @@ so.author: Bergfrid Dias
 
 This tutorial walks you through the most common Git tasks on your **local computer**. We show the Git Bash command line and Visual Studio Code (VS Code) side-by-side.
 
+Working locally has many benefits:
+
+* You can still be productive with no or bad internet connection. Long commute? No problem.
+* You get to choose the Markdown editor and customize it to your preferences.
+* You can leverage powerful search and file operations.
+
 **Other options:**
 
 * [Work exclusively in the browser on github.com][1].
@@ -169,6 +175,8 @@ Saving your changes is a three-step process:
 > [!TIP]
 > Adding the issue number (for example #256) somewhere in the commit message automatically links your changes to the issue and lets others see what has been done.
 
+### Save the changes to your local Git repo
+
 ### [Git Bash command line](#tab/cmd-4)
 
 1. Go to the repo folder.
@@ -215,14 +223,104 @@ Saving your changes is a three-step process:
 
 ***
 
+### Publish the changes to GitHub
+
+The last step before your team-mates see your updates is to sync to the cloud (**push**).
+
+### [Git Bash command line](#tab/cmd-5)
+
+1. Go to the repo folder.
+
+2. Run `git push`
+
+    ```bash
+    git push -u origin "[INSERT NEW BRANCH NAME]"
+    ```
+
+    The `-u` means *upstream*.
+
+### [VS Code](#tab/vscode-5)
+
+***
+
 ## Finish an issue
 
-* PR
-* reviewer notifications
+1. Go to the repo on GitHub.com. GitHub should detect the updated code and prompt you to make a pull request.
+
+2. Click the **Compare and create pull request** button.
+
+    It might also look like this:
+
+    ![Open PR on GitHub -screenshot][img10]
+
+3. Fill in info such as title and description and select a reviewer.
+
+    In the description or comments section be sure to include the text "Resolves `#[INSERT ISSUE NUMBER HERE]` where your previously created issue number is associated with this pull request.
+
+    ![Create PR on GitHub -screenshot][img11]
 
 ## Switch context - work on something else
 
+Sometimes you'll need to suspend your current work in progress to deal with something else.
+
+* You're blocked waiting for someone else to do something or to get back to you.
+* Someone asked you to help them out on an urgent issue.
+* Someone requested your review on a pull request.
+
+1. [Stage and commit your changes](#save-the-changes-to-local-git-repo)
+
+    If this is inconvenient, use **Stash**.
+
+2. Switch to the main branch and pull.
+
+3. [Start a new issue](#go-to-a-branch-to-do-work) or switch to an existing branch (and pull).
+
+### Switching between branches
+
+### [Git Bash command line](#tab/cmd-6)
+
+1. Go to the repo folder.
+
+2. Switch to main and pull:
+
+    ```bash
+    git switch main
+    git pull
+    ```
+
+3. Switch to the next branch and pull:
+
+    ```bash
+    git switch "[INSERT BRANCH NAME]"
+    git pull
+    ```
+
+### [VS Code](#tab/vscode-6)
+
+1. Click the source control icon.
+2. Expand **BRANCHES**
+3. Click the curved arrow icon.
+
+    ![VS Code switch branch -screenshot][img12]
+
+4. Select a branch to switch to.
+5. Pull.
+
+***
+
 ## Done for the day - share all updates
+
+Before you clock off, clean up your desk so to speak. The longer you accumulate stuff locally, the harder it *can* get to sync up with your team eventually.
+
+Also, I sleep better at night knowing my content is safe in the cloud and not just on my hard drive.
+
+If you've worked on one issue only:
+
+* [Share your updates](#share-your-updates) one last time.
+* [Initiate the review process](#finish-an-issue) (if relevant).
+* Update status and/or comment on the issue on GitHub to keep your team in the loop.
+
+If you switched context, you should revisit those other branches to wrap up those as well.
 
 <!-- Referenced links -->
 [1]: how-to-edit-an-article-in-browser.md
@@ -241,3 +339,6 @@ Saving your changes is a three-step process:
 [img7]: media/vscode-branches.png
 [img8]: media/vscode-stage-all-changes.png
 [img9]: media/vscode-commit-menu.png
+[img10]: media/github-open-pr.png
+[img11]: media/github-create-pr.png
+[img12]: media/vscode-switch-branch.png
