@@ -295,7 +295,7 @@ Sometimes you'll need to suspend your current work in progress to deal with some
 * Someone asked you to help them out on an urgent issue.
 * Someone requested your review on a pull request.
 
-1. [Stage and commit your changes](#save-the-changes-to-local-git-repo).
+1. [Stage and commit your changes](#save-the-changes-to-your-local-git-repo).
 
     If this is inconvenient, use **Stash**.
 

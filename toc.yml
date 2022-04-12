@@ -6,20 +6,20 @@ items:
   items:
   - name: Overview
     href: overview.md
-  - name: How to edit an article in browser
-    href: how-to-edit-an-article-in-browser.md
-  - name: Get SuperOfficeDocs running locally
-    href: get-superoffice-docs-running-locally.md
   - name: Getting started
     href: tutorial.md
+  - name: Files and folders
+    href: files-and-folders.md
   - name: Everyday workflows
     href: git-workflows.md
-  - name: How to edit an article
+  - name: Run Docs locally
+    href: get-superoffice-docs-running-locally.md
+  - name: Edit an article in browser
+    href: how-to-edit-an-article-in-browser.md
+  - name: Edit an article locally
     href: how-to-edit-an-article.md
   - name: How to create a tutorial
     href: how-to-create-tutorial.md
-  - name: Files and folders
-    href: files-and-folders.md
   - name: Branch strategy
     href: branch-strategy.md
   - name: Git cheat-sheet
