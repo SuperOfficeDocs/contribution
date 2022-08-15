@@ -130,7 +130,10 @@ Even though Markdown supports inline HTML, we (generally) don't use it on `docs.
 **Exceptions:**
 
 * Use `<br />` to break a line in table cells.
-* Download links, for example, `<a href="../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>`
+* Download links, for example, `<a href="../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>`.
+* You may use `<see>` and `<seealso>` in yml-formatted API reference.
+* Use `<details>` and `<summary>` to create drop-down content.
+* Use `<script>` to bring in SuperOffice forms.
 
 ## Images
 

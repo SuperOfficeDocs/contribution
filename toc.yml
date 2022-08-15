@@ -35,6 +35,8 @@ items:
     href: markdown-guide/code-in-docs.md
   - name: Using blueprint templates
     href: markdown-guide/using-blueprint-templates.md
+  - name: Using markdownlint
+    href: markdown-guide/markdownlint.md
 - name: Style guide
   href: style-guide/index.md
   items:
