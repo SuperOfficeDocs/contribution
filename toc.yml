@@ -40,6 +40,8 @@ items:
   items:
   - name: Formatting
     href: style-guide/formatting.md
+  - name: Icon names
+    href: icons.md
 - name: DocFx stuff
   items:
   - name: Landing pages
