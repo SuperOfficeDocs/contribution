@@ -34,7 +34,7 @@ The examples above would look like this in Markdown:
 ```markdown
 1. Ordered list items
 2. **bold list item**
-3. *italic list item*
+3. *italic list item* 
 
 * Unordered list items
 * [link example](https://community.superoffice.com/)
