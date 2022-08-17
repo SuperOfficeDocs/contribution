@@ -35,7 +35,7 @@ In topic-based writing, a topic could for example be *How to create a sale* whil
 
 Often, you identify smaller pieces of information as recurring. For example:
 
-* A note stating which license a task requires
+* A note stating which license a task requires.
 * A single task step repeated in multiple procedures, such as "Click the **Save** button".
 * A list of something, such as follow-up statuses.
 
@@ -59,7 +59,7 @@ A **true duplicate** has no benefits. Cutting duplicate content pages improves U
 * It is [bad for SEO][1].
 * It is bad for link equity.
 
-A user generally finds a way in one of these ways:
+A user generally finds content in one of these ways:
 
 * Direct link from Help, FAQ, or another topic.
 * Via a search engine such as Google or Bing.
@@ -74,7 +74,9 @@ Linking to a topic from multiple landing pages is a plus. It builds link equity.
 
 Without a strategy, content reuse can quickly become confusing and frustrating.
 
-If people can't find the reusable topics and fragments, they'll rewrite it from scratch. It is a good practice to sign-post reusable content. For SuperOfficeDocs we use folders named *includes*. Establishing a file naming convention doesn't hurt either.
+If people can't find the reusable topics and fragments, they'll rewrite it from scratch.
+
+It is a good practice to sign-post reusable content. For SuperOfficeDocs we use folders named *includes*. Establishing a file naming convention doesn't hurt either.
 
 There is a compromise between usability for contributors and optimization for hard-core authors. Just because you can extract it, doesn't mean you should. What you want to avoid is making your source so complex and cryptic that it requires specialized training to do something as trivial as fixing a typo. If people are overwhelmed, they stop contributing.
 
