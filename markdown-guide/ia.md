@@ -26,7 +26,7 @@ More than half of users will use a different entry point than the home page.
 
 * Direct link from F1 or FAQ
 * Direct link from a forum or blog post
-* User knows exactly what they are looking for and uses wither a search engine or your local search
+* User knows exactly what they are looking for and uses either a search engine or your local search
 * User wants to explore certain keywords (fuzzy goals)
 * User wants to follow a guided learning path (focused study)
 * User looks for a solution without understanding the problem (this is when they might resort to live chat or contact support)
@@ -67,7 +67,7 @@ Which type of navigation is suitable depends on the shear volume of content and 
 |---|---|---|
 | All info on a single page | Seamless UX with limited content| no |
 | Flat structure with one level of navigation | 10 or fewer pages | no |
-| An index of all pages in a single location | very narrow topics | no |
+| An index of all pages in a single location | Very narrow topics | no |
 | Central hub (daisy structure) | Smaller sites with| partially |
 | Strict hierarchy (pages accessible only from their parent) | Educational content where you want to enforce a reading order | partially |
 | Multidimensional hierarchy | Extensive content with multiple ways to access a page | yes |
