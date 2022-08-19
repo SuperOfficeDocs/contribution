@@ -35,6 +35,8 @@ items:
     href: markdown-guide/metadata.md
   - name: Code in docs
     href: markdown-guide/code-in-docs.md
+  - name: Using markdownlint
+    href: markdown-guide/markdownlint.md
   - name: Using blueprint templates
     href: markdown-guide/using-blueprint-templates.md
 - name: Information architecture
