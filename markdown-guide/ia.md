@@ -115,45 +115,6 @@ Topic-based navigation is often the main navigation for a site. Most users think
 
 **For translation**, this means that new and changed files are already grouped together. (This is also a plus for version control in general.)
 
-## How to refactor
-
-> [!NOTE]
-> If you start to refactor without establishing content areas and a solid IA first, you'll waste your time and end up with a mess.
-
-Ask yourself:
-
-* What is the purpose of refactoring/restructuring?
-* What are the users' needs and expectations?
-
-Process:
-
-1. Group and label content areas
-1. Organize content areas
-1. Build a rough sitemap
-1. Define navigation
-
-### User guide or help
-
-User assistance is a subset of UX and provides information to help a person to interact with software. A user guide (aka online help) is one type of assistance. Tutorial is another.
-
-A user guide is intended to assist users in using a particular product, service, or application. In general terms, **user help** and **user guide** are the same thing.
-
-However, due to legacy and an ad hoc content strategy these have held different meanings and content in SuperOffice. If we break it down, it looks like this:
-
-* Help: a complete detailed set of how-tos plus description (reference) of the screens, tabs, and fields of the SuperOffice UI.
-* Guide: a conceptual overlay of Help adding videos, curated links to related content, and sometimes rationale behind tasks.
-
-These have further been broken down based on role (user versus admin) and application (sales, service, admin). As we saw earlier, neither role, product, or UI lead to a sustainable IA.
-
-With a new IA, and migrating all this content to the same repo, we get to redefine these buckets.
-
-## Best practices
-
-* Less is more. Limit the number of choices.
-* Keep navigation simple.
-* Aim to deliver the right content at the right time (progressive disclosure). People want instant gratification. The faster they get to the destination, the greater the satisfaction.
-* Steer users through information in a way that lets them digest and remember it.
-
 <!-- Referenced links -->
 [1]: http://www.iainstitute.org/
 
