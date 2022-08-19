@@ -96,7 +96,7 @@ Minimize similar content. Instead of having 3 similar pages, either consolidate 
 * Aim to make your topics stand alone without breaking the single responsibility principle.
 * Make it generic instead of specific. Include as much information as the end user needs while keeping it generic enough to be applicable in multiple contexts.
 * Standardize terminology. Use consistent grammar and style.
-* Favour brevity and simplicity.
+* Favor brevity and simplicity.
 
 **Don'ts:**
 
