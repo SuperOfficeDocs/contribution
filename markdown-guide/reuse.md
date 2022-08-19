@@ -12,7 +12,7 @@ so.author: Bergfrid Dias
 
 Content reuse is to use the same pieces of content in multiple places without copying. It works like this:
 
-1. Write a pice of content and save it in a common place.
+1. Write a piece of content and save it in a common place.
 2. Embed this content in one or more locations **by reference**.
 3. Any changes to the content can be done in one place and the updates are automatically applied wherever that piece is used.
 
