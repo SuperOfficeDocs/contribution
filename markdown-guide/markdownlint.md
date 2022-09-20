@@ -1,5 +1,5 @@
 ---
-uid: markdown-guide-to-docfx
+uid: markdown-guide-markdownlint
 locale: en
 title: Linting Markdown for docs.superoffice.com
 description: Introduction to markdownlint and how we use it for SuperOfficeDocs.
