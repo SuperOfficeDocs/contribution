@@ -20,6 +20,8 @@ items:
     href: how-to-edit-an-article.md
   - name: How to create a tutorial
     href: how-to-create-tutorial.md
+- name: Git
+  items:
   - name: Branch strategy
     href: branch-strategy.md
   - name: Git cheat-sheet
@@ -33,10 +35,14 @@ items:
     href: markdown-guide/metadata.md
   - name: Code in docs
     href: markdown-guide/code-in-docs.md
-  - name: Using blueprint templates
-    href: markdown-guide/using-blueprint-templates.md
   - name: Using markdownlint
     href: markdown-guide/markdownlint.md
+  - name: Using blueprint templates
+    href: markdown-guide/using-blueprint-templates.md
+- name: Information architecture
+  href: ia.md
+- name: Content reuse
+  href: reuse.md
 - name: Style guide
   href: style-guide/index.md
   items:
