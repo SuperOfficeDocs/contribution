@@ -229,7 +229,7 @@ Here are requirements and considerations for include files:
 
 ## Links
 
-For information about the syntax for links, see [How to use links in docs][5].
+For information about the syntax for links, see [How to use links in docs][6].
 
 ## Lists
 
