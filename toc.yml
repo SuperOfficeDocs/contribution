@@ -24,6 +24,15 @@ items:
     href: branch-strategy.md
   - name: Git cheat-sheet
     href: git-cheat-sheet.md
+- name: Review
+  href: review/index.md
+  items:
+  - name: Request a review
+    href: review/request-review.md
+  - name: Incorporate changes
+    href: review/incorporate-feedback.md
+  - name: Comment and submit a review
+    href: review/check-changes.md
 - name: Markdown guide
   href: markdown-guide/index.md
   items:
