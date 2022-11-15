@@ -31,7 +31,7 @@ The easiest way to edit a SuperOffice Docs file is to edit it in the browser on 
 
     ![Edit Markdown in browser][img3]
 
-5. Update the title to include the issue #ID and submit the pull request
+5. Update the title to include the issue #ID and submit the pull request.
 
   ![Edit Markdown in browser][img4]
 

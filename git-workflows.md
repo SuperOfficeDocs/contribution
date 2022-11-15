@@ -8,6 +8,7 @@ so.date: 04.08.2022
 so.author: Bergfrid Dias
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # A beginner's guide to Git
 
 This tutorial walks you through the most common Git tasks on your **local computer**. We show the Git Bash command line and Visual Studio Code (VS Code) side-by-side.
@@ -273,19 +274,7 @@ The last step before your team-mates see your updates is to sync to the cloud (*
 
 ## Finish an issue
 
-1. Go to the repo on GitHub.com. GitHub should detect the updated code and prompt you to make a pull request.
-
-2. Click the **Compare and create pull request** button.
-
-    It might also look like this:
-
-    ![Open PR on GitHub -screenshot][img10]
-
-3. Fill in info such as title and description and select a reviewer.
-
-    In the description or comments section be sure to include the text "Resolves `#[INSERT ISSUE NUMBER HERE]` where your previously created issue number is associated with this pull request.
-
-    ![Create PR on GitHub -screenshot][img11]
+[!include[Steps to create a PR](includes/steps-create-pr.md)]
 
 ## Switch context - work on something else
 
@@ -352,7 +341,6 @@ If you switched context, you should revisit those other branches to wrap up thos
 
 <!-- Referenced links -->
 [1]: how-to-edit-an-article-in-browser.md
-[2]: how-to-edit-an-article.md
 [3]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 [4]: branch-strategy.md
 [5]: git-cheat-sheet.md#saving-changes-to-your-repository
@@ -367,8 +355,6 @@ If you switched context, you should revisit those other branches to wrap up thos
 [img7]: media/vscode-branches.png
 [img8]: media/vscode-stage-all-changes.png
 [img9]: media/vscode-commit-menu.png
-[img10]: media/github-open-pr.png
-[img11]: media/github-create-pr.png
 [img12]: media/vscode-switch-branch.png
 [img13]: media/vscode-push-commit.png
 [img14]: media/vscode-confirm-commit.png

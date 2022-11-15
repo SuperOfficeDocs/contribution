@@ -62,7 +62,7 @@ When you are happy with your changes, you can move on to pushing it to your fork
 
 3. Use `git commit -m [INSERT YOUR COMMIT MESSAGE HERE]` to commit your files. The `-m` stands for *message*. Replace the *INSERT YOUR COMMIT MESSAGE HERE* text with brief and relevant text summarizing your commit. Remember to include the issue ID!
 
-4. Use `git push origin [INSERT A NEW BRANCH NAME HERE]` to push your updated files to your repo. Replace the *INSERT A NEW BRANCH NAME HERE* with the name of your new branch
+4. Use `git push origin [INSERT A NEW BRANCH NAME HERE]` to push your updated files to your repo. Replace the *INSERT A NEW BRANCH NAME HERE* with the name of your new branch.
 
 5. Go to your forked GitHub repo on GitHub.com. GitHub should detect the updated code and prompt you to make a pull request.
 
