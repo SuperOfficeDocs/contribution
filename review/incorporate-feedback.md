@@ -19,9 +19,12 @@ so.topic: howto
 
     ![GitHub PR conversation view changes -screenshot][img1]
 
+For each remark, you can choose to reply with a comment, commit the suggested changes, or edit the file directly.
+
 ## Commit suggested changes
 
 1. On the **Files changed** tab, scroll to the first suggestion.
+
 1. Click **Commit suggestion**.
 
     ![GitHub PR commit changes -screenshot][img2]
@@ -33,13 +36,13 @@ so.topic: howto
 
 ## Edit file on GitHub
 
-If you [edited a file on GitHub][1], a branch was created at the same time you created the PR.
+If you [edited a file on GitHub][2], a branch was created at the same time you created the PR.
 
 ![GitHub create patch -screenshot][img4]
 
 To update this file again on that branch:
 
-1. Select the **Files changed** tab.
+1. When viewing the PR, select the **Files changed** tab.
 
 1. Click the three dots above the changed file and select **Edit file**.
 
@@ -51,7 +54,7 @@ To update this file again on that branch:
 
 1. Revise the file as requested in the PR review.
 
-1. Commit the file. This time selecting the option to commit directly to the patch branch.
+1. Commit the file, selecting the option to commit directly to the **patch branch**.
 
     ![GitHub commit to patch -screenshot][img8]
 
@@ -61,21 +64,21 @@ To update this file again on that branch:
 
     ![GitHub copy patch name -screenshot][img5]
 
-    (Branch is *digitaldiina-patch-1* in this example.)
-
 1. Select the **Files changed** tab and note or copy the file path.
 
      ![GitHub copy path -screenshot][img9]
 
 1. Select the **Code** tab on the main menu.
 
+1. Select your PR branch.
+
     ![GitHub select branch -screenshot][img10]
 
 1. Navigate the folders till you locate the file.
 
-1. Click the pencil icon to edit.
+1. Click the pencil icon to edit and revise as necessary.
 
-1. Commit the file. This time selecting the option to commit directly to the patch branch.
+1. Commit the file, selecting the option to commit directly to the **patch branch**.
 
 ## Check out and edit PR branch locally
 
@@ -91,6 +94,7 @@ Then revise and commit the changes to the branch. After pushing, the PR on GitHu
 
 <!-- Referenced links -->
 [1]: https://github.com/SuperOfficeDocs/superoffice-docs
+[2]: ../how-to-edit-an-article-in-browser.md
 
 <!-- Referenced images -->
 [img1]: media/conversation-view-changes.png

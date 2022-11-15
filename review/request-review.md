@@ -21,13 +21,18 @@ Wait for a notification from the reviewer. Then [view and incorporate feedback o
 ## Worked on a local branch
 
 <!-- markdownlint-disable-next-line MD044 -->
-* If you worked on a branch from a [clone][2], go directly to [the public superoffice-docs repo][4]
+* If you worked on a branch from a [clone][2], go directly to [the public superoffice-docs repo][4].
 * If you worked on a [fork][3], go to your **forked GitHub repo** on GitHub.com instead.
 
 [!include[Steps to create a PR](../includes/steps-create-pr.md)]
 
 > [!NOTE]
 > There are extensions for creating PRs directly from VS Code, however, authentication (especially with enterprise accounts) is not trivial. Creating PRs on GitHub is strongly recommended.
+
+## What happens now?
+
+* Follow the discussion in the **Conversation** tab.
+* Look for GitHub notifications on the PR and be prepared to [implement the requested changes][5] (if any).
 
 <!-- Referenced links -->
 [1]: ../how-to-edit-an-article-in-browser.md

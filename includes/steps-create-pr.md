@@ -9,7 +9,7 @@
 
 3. Fill in info such as title and description and select a reviewer.
 
-    In the description or comments section be sure to include the text "Resolves `#[INSERT ISSUE NUMBER HERE]` where your previously created issue number is associated with this pull request.
+    In the description or comments section be sure to include the text "Resolves `#[INSERT ISSUE NUMBER HERE]`" where your previously created issue number is associated with this pull request.
 
     ![Create PR on GitHub -screenshot][img11]
 

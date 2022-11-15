@@ -10,11 +10,22 @@ so.topic: concept
 
 # Reviews on SuperOfficeDocs
 
+Reviews can be many things. This article focuses on the required steps to get a proposed change accepted and published to `docs.superoffice.com`.
+
+The main objectives of our mandatory pull request (PR) reviews and automatic tests are to ensure that content is easy to find, easy to understand, and easy to use and that changes don't cause the build pipeline to fail or the site to break.
+
 ## I'm a contributor, translator, or content author
 
-To incorporate your changes, we'll merge your pull request (PR) with the main branch after approving the PR.
+To incorporate your proposed changes, we'll merge your pull request (PR) with the main branch after approving the PR.
 
-1. [Create the PR (request a review)][1].
+1. [Create the PR (request a review)][1]. This signals that you consider your work done.
+
+    > [!NOTE]
+    > If you want intermittent input from a co-author or a subject matter expert (SME) before you're done, contact them directly or @ mention them in a comment on the GitHub issue.
+
+1. When you receive GitHub notifications on the PR, study the comments and [incorporate the feedback][5].
+
+    It is not uncommon for this step to involve several discussions and fixes.
 
 ## I'm a reviewer
 
@@ -28,8 +39,8 @@ As a reviewer, you'll do one or more of the following tasks:
 
 ## What to check
 
-* [Markdown formatting][2] - no linting errors
-* [Style guide][3]
+* [Markdown formatting][3] - no linting errors
+* [Style guide][2]
 * Automatic tests should pass.
 * Local DocFX build should pass and not report broken links. Modified and new pages should look OK on localhost.
 * Reference to deleted pages should be removed from toc and other content.
@@ -41,5 +52,6 @@ As a reviewer, you'll do one or more of the following tasks:
 [2]: ../style-guide/index.md
 [3]: ../markdown-guide/index.md
 [4]: check-changes.md
+[5]: incorporate-feedback.md
 
 <!-- Referenced images -->
