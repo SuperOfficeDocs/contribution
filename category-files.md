@@ -1,6 +1,5 @@
 ---
 uid: landing_pages
-locale: en
 title: Landing pages
 description: How to work with category files (index.yml) on SuperOfficeDocs
 so.topic: concept
@@ -64,7 +63,7 @@ conceptualContent:
           - url: ../online/migrate/index.md
             itemType: how-to-guide
             text: "Migration guide"
-          - url: ../service/mailboxes/migrate.md
+          - url: ../email/service/migrate.md
             itemType: concept
             text: "Migrating Service mailboxes"
           - url: ../online/system-requirements.md
