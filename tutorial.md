@@ -66,12 +66,6 @@ Install the GitLens extension for VS Code.
 
 Search for `gitlens` in your extensions list in the VS Code window, or [go to the marketplace page][13] and select **Install**.
 
-### Markdown Kit
-
-Install the Markdown Kit extension for VS Code. We use it primarily to paste HTML as Markdown.
-
-Search for `markdown-kit` in your extensions list in the VS Code window, or [go to the marketplace page][14] and select **Install**.
-
 ### Other relevant extensions
 
 * [Sort lines][15]
@@ -169,7 +163,6 @@ Want to dive right in? Check out our [Git cheat sheet](git-cheat-sheet.md).
 [11]: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack
 [12]: https://marketplace.visualstudio.com/items?itemName=teamchilla.blueprint
 [13]: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
-[14]: https://marketplace.visualstudio.com/items?itemName=svsool.markdown-kit
 [15]: https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
 [16]: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
 [17]: https://marketplace.visualstudio.com/items?itemName=blackmist.LinkCheckMD

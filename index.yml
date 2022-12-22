@@ -113,8 +113,6 @@ landingContent:
           url: https://marketplace.visualstudio.com/items?itemName=teamchilla.blueprint
         - text: GitLens - Git supercharged
           url: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
-        - text: Markdown Kit
-          url: https://marketplace.visualstudio.com/items?itemName=svsool.markdown-kit
         - text: Sort lines
           url: https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
         - text: Markdownlint
