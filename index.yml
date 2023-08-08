@@ -9,18 +9,21 @@ metadata:
   ms.topic: landing-page
   ms.date: 04.20.2021
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: Getting started
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: Contribution guide
           url: overview.md
-      - linkListType: get-started
+      - itemType: power_settings_new
+        typeDesc: get-started
         links:
         - text: Get SuperOfficeDocs running locally
           url: get-superoffice-docs-running-locally.md
@@ -37,14 +40,16 @@ landingContent:
   # Card
   - title: Feedback
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Create an issue
           url: https://github.com/SuperOfficeDocs/superoffice-docs/issues
   # Card
   - title: Editing and authoring
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: How to edit an article in browser
           url: how-to-edit-an-article-in-browser.md
@@ -54,7 +59,8 @@ landingContent:
           url: toc-files.md
         - text: How to edit landing pages
           url: category-files.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Style guide
           url: style-guide/index.md
@@ -67,7 +73,8 @@ landingContent:
   # Card
   - title: Markdown
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Markdown guide
           url: markdown-guide/index.md
@@ -77,14 +84,16 @@ landingContent:
           url: markdown-guide/metadata.md
         - text: Code in docs
           url: markdown-guide/code-in-docs.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Using blueprint templates
           url: markdown-guide/using-blueprint-templates.md
 # Card
   - title: Git resources
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Create an account
           url: https://github.com/join
@@ -103,7 +112,8 @@ landingContent:
 # Card
   - title: Visual Studio Code
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Get VS Code
           url: https://code.visualstudio.com/
