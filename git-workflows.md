@@ -2,10 +2,10 @@
 uid: git-workflows
 title: Common Git workflows
 description: A beginner's guide to Git - step-by-step instructions for daily tasks in different tools
-locale: en
-so.topic: howto
-so.date: 04.08.2022
-so.author: Bergfrid Dias
+language: en
+topic: howto
+date: 04.08.2022
+author: Bergfrid Dias
 ---
 
 <!-- markdownlint-disable-file MD051 -->

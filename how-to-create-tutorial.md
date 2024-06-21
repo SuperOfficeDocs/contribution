@@ -1,11 +1,13 @@
 ---
 uid: how_to_create_tutorial_page
 title: How to create a tutorial page
-locale: en
-so.topic: reference
-so.date: 04.04.2022
-so.author: AnthonyYates
+language: en
+topic: reference
+date: 04.04.2022
+author: AnthonyYates
 ---
+
+<!-- markdownlint-disable-file MD013 -->
 
 # How to create a tutorial page
 
@@ -25,7 +27,7 @@ The following example yaml represents a tutorial page, consisting of 5 top-level
    3. Audience (for future use)
    4. so.topic (for future use)
    5. so.date
-   6. level (for future use
+   6. level (for future use)
 4. Items: collection of 2 or more steps (minimum of 2).
    1. Title (displayed as step title)
    2. Duration (estimated in minutes)
@@ -34,8 +36,6 @@ The following example yaml represents a tutorial page, consisting of 5 top-level
 There must be 2 or more steps, where each step is delineated by a combination of title, durationInMinutes and content elements. Below there are two step examples, Prerequisites and Get example.
 
 Step titles are not ste descriptions. Use as few words as possible, no more than 3! If nothing better, use Step 1, Step 2, Step 3 etc.
-
-
 
 ```yaml
 ### YamlMime:Tutorial
@@ -46,8 +46,8 @@ metadata:
   title:  Tutorial - Learn how to create an Online CRM application.
   description: In this tutorial, you'll learn how to create an application that connects to your SuperOffice CRM Online tenant.
   audience: Developer    # reader audience Developer | Consultant
-  so.topic: tutorial     # tutorial | how-to-guide | architecture
-  so.date: 03/13/2022    # created / updated date
+  topic: tutorial     # tutorial | how-to-guide | architecture
+  date: 03/13/2022    # created / updated date
   level: Intermediate    # intended user level
 
 items:
@@ -153,8 +153,7 @@ Don’t explain anything the learner doesn’t need to know in order to complete
 
 Your tutorial needs to be focused on the task in hand. Maybe the command you’re introducing has many other options, or maybe there are different ways to access a certain API. It doesn’t matter: right now, your learner does not need to know about those in order to make progress.​
 
-#### Good luck and have fun teaching others!
-
+#### Good luck and have fun teaching others
 
 <!-- Referenced links -->
 

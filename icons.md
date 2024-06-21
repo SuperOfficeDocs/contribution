@@ -1,11 +1,11 @@
 ---
 uid: icon-naming-conventions
-locale: en
+language: en
 title: Naming conventions for icons
 description: Naming conventions for icons
-so.topic: reference
-so.date: 08.15.2022
-so.author: Bergfrid Dias
+topic: reference
+date: 08.15.2022
+author: Bergfrid Dias
 ---
 
 # Icons

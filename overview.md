@@ -1,11 +1,11 @@
 ---
 uid: contribute-to-docs
-locale: en
+language: en
 title: Contribute to SuperOffice Docs
 description: Contribute to SuperOffice Docs
-so.topic: concept
-so.date: 04.19.2021
-so.author: Tony Yates
+topic: concept
+date: 04.19.2021
+author: Tony Yates
 ---
 
 # Contribute to SuperOfficeDocs
@@ -20,6 +20,7 @@ SuperOffice Docs are located on GitHub at [https://github.com/SuperOfficeDocs][1
 
 ## How SuperOfficeDocs are generated
 
+<!-- markdownlint-disable-next-line MD044 -->
 The SuperOffice Docs system uses [DocFx][2], [Markdown][3], and GitHub to ultimately output a statically generated site, which is currently located at [docs.superoffice.com][4]. You don't have to understand the components that are used to generate the docs to contribute.
 
 ## Authoring and editing content in SuperOfficeDocs

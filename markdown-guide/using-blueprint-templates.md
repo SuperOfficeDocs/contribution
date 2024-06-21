@@ -1,11 +1,11 @@
 ---
 uid: using_blueprint_templates
-locale: en
+language: en
 title: Using Blueprint templates
 description: How to use Blueprint templates in Visual Studio Code
-so.topic: reference
-so.date: 04.19.2021
-so.author: Bergfrid Dias
+topic: reference
+date: 04.19.2021
+author: Bergfrid Dias
 keywords: template, Blueprint, VS Code, Visual Studio Code, authoring, tools, contribution
 ---
 

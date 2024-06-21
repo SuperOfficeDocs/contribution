@@ -1,12 +1,12 @@
 ---
 uid: info-architecture
-locale: en
+language: en
 title: Information architecture
 description: Introduction to information architecture
 keywords: IA, structure, cognitive load
-so.topic: concept
-so.date: 08.1.2022
-so.author: Bergfrid Dias
+topic: concept
+date: 08.1.2022
+author: Bergfrid Dias
 ---
 
 # Information architecture

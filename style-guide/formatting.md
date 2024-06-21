@@ -1,11 +1,11 @@
 ---
 uid: formatting
-locale: en
+language: en
 title: Text formatting guidelines
 description: Text formatting guidelines
-so.topic: reference
-so.date: 04.19.2021
-so.author: Bergfrid Dias
+topic: reference
+date: 04.19.2021
+author: Bergfrid Dias
 ---
 
 # Text formatting guidelines

@@ -1,11 +1,11 @@
 ---
 uid: markdown-guide-markdownlint
-locale: en
+language: en
 title: Linting Markdown for docs.superoffice.com
 description: Introduction to markdownlint and how we use it for SuperOfficeDocs.
-so.topic: howto
-so.date: 08.15.2022
-so.author: Bergfrid Dias
+topic: howto
+date: 08.15.2022
+author: Bergfrid Dias
 ---
 
 # markdownlint
@@ -40,7 +40,7 @@ Here, the wavy underline indicates a problem with list numbering.
 
 You can hover to find out more about the problem:
 
-![Hovering warning from markdownlint in VS Code-screebshot][img2]
+![Hovering warning from markdownlint in VS Code-screenshot][img2]
 
 Here we see that it is rule MD029 that is violated and that the list prefix on line 27 should be 3 and not 4.
 
@@ -122,7 +122,6 @@ See [GitHub issue 373][7] regarding why we exclude rules MD013 and MD041.
 [5]: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
 [6]: https://github.com/igorshubovych/markdownlint-cli
 [7]: https://github.com/SuperOfficeDocs/superoffice-docs/issues/373
-[8]: https://github.com/DavidAnson/markdownlint#configuration
 
 <!-- Referenced images -->
 [img1]: media/mdlint-list-warning.png

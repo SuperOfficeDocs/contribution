@@ -1,12 +1,13 @@
 ---
 uid: getting-started-contribution
-locale: en
+language: en
 title: docs.superoffice.com contribution
-so.topic: concept
-so.date: 04.19.2021
-so.author: Tony Yates
+topic: concept
+date: 04.19.2021
+author: Tony Yates
 ---
 
+<!-- markdownlint-disable-next-line MD044 -->
 # About docs.superoffice.com
 
 ## [SuperOffice Docs](xref:contribute-to-docs)

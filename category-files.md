@@ -2,10 +2,10 @@
 uid: landing_pages
 title: Landing pages
 description: How to work with category files (index.yml) on SuperOfficeDocs
-so.topic: concept
+topic: concept
 keywords: landing page, category page, YamlMime:Category, YamlMime:SubCategory
-so.date: 06.28.2021
-so.author: Bergfrid Dias
+date: 06.28.2021
+author: Bergfrid Dias
 ---
 
 # Landing pages

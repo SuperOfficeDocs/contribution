@@ -1,11 +1,11 @@
 ---
 uid: how_to_edit_an_article
-locale: en
+language: en
 title: Edit an article
 description: Edit an article
-so.topic: howto
-so.date: 04.19.2021
-so.author: Tony Yates
+topic: howto
+date: 04.19.2021
+author: Tony Yates
 ---
 
 # Edit an article

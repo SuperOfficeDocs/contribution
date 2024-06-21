@@ -3,9 +3,9 @@ title: Request a review
 uid: request-review
 description: How to request a review before merging a contribution to main
 author: Bergfrid Dias
-so.date: 11.14.2022
+date: 11.14.2022
 keywords: review, PR
-so.topic: howto
+topic: howto
 ---
 
 # How to request a review
