@@ -1,11 +1,11 @@
 ---
 uid: files_and_folders
-locale: en
+language: en
 title: Organization of repositories
 description: 
-so.topic: reference
-so.date: 04.19.2021
-so.author: Bergfrid Dias
+topic: reference
+date: 04.19.2021
+author: Bergfrid Dias
 ---
 
 # Organization of repositories

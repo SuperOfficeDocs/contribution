@@ -3,9 +3,9 @@ title: Reviewing a PR
 uid: review-check-changes
 description: How to check proposed changes in a PR
 author: Bergfrid Dias
-so.date: 11.14.2022
+date: 11.14.2022
 keywords: review, PR
-so.topic: howto
+topic: howto
 
 ---
 

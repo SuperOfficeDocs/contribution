@@ -1,11 +1,11 @@
 ---
 uid: markdown_metadata
-locale: en
+language: en
 title: Metadata (Yaml front-matter)
 description: 
-so.topic: concept
-so.date: 04.19.2021
-so.author: Tony Yates
+topic: concept
+date: 04.19.2021
+author: Tony Yates
 ---
 
 # Metadata (Yaml front-matter)
@@ -29,11 +29,11 @@ uid: join_video_meeting
 title: Join a video meeting
 description: There are several ways in which you can join a video meeting in SuperOffice. Learn how.
 author: Tony Yates
-so.date: 04.19.2021
+date: 04.19.2021
 keywords: video
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 ```
 

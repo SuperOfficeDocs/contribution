@@ -1,13 +1,15 @@
 ---
 uid: crmscript-yaml-reference
-locale: en
+language: en
 title: YAML API reference
 description: How to work with CRMScript API reference on SuperOfficeDocs
-so.topic: concept
+topic: concept
 keywords: YamlMime:ManagedReference, YAML, ManagedReference, CRMScript
-so.date: 12.01.2021
-so.author: Bergfrid Dias
+date: 12.01.2021
+author: Bergfrid Dias
 ---
+
+<!-- markdownlint-disable-file MD013-->
 
 # YAML format API reference
 
@@ -69,6 +71,7 @@ fullName: CRMScript.Global.String.toUpper()
 
 ### Langs
 
+<!-- markdownlint-disable-next-line MD044 -->
 Should always be 'crmscript'.
 
 ```yml
@@ -224,6 +227,7 @@ syntax:
 
 ## Common tasks
 
+<!-- markdownlint-disable-next-line MD044 -->
 If you have suggestions or want to request changes, you can [create a site feedback issue][1]. We also welcome pull requests to the crmscript repo.
 
 > [!TIP]

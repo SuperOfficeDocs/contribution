@@ -1,12 +1,14 @@
 ---
 uid: toc_on_docs
-locale: en
+language: en
 title: Table of contents
 description: How to work with table-of-content (TOC) files on SuperOfficeDocs
-so.topic: concept
-so.date: 06.24.2021
-so.author: Bergfrid Dias
+topic: concept
+date: 06.24.2021
+author: Bergfrid Dias
 ---
+
+<!-- markdownlint-disable-file MD044 -->
 
 # Table-of-content (TOC) files
 

@@ -1,11 +1,11 @@
 ---
 uid: get-superoffice-docs-running-locally
-locale: en
+language: en
 title: Get SuperOfficeDocs running locally
 description: Get SuperOfficeDocs running locally
-so.topic: howto
-so.date: 04.19.2021
-so.author: Tony Yates
+topic: howto
+date: 04.19.2021
+author: Tony Yates
 ---
 
 # Get SuperOfficeDocs running locally
@@ -34,6 +34,7 @@ Note the following example command clones the repo to *c:\dev* or the location o
 c:\dev> git clone https://github.com/SuperOfficeDocs/superoffice-docs.git
 ```
 
+<!-- markdownlint-disable-next-line MD044 -->
 The previous command will have created a folder called *superoffice-docs* in the *c:\dev* folder. Navigate to that directory by using the **cd** (Change Directory) command. `cd` into the `superoffice-docs` folder.
 
 ```bash
@@ -45,6 +46,7 @@ c:\dev> cd superoffice-docs
 
 ### Include API documentation
 
+<!-- markdownlint-disable-next-line MD044 -->
 If you want to include the API documentation, you'll need to download the [SuperOffice NuGet packages][4] into a **sub-folder** of the *superoffice-docs* root folder called *src*. The reason is that the project reads the XML comments in the source code and creates API documentation from that, in addition to the documentation center articles.
 
 From the tools folder, run the `nuget install` command to unpack the contents of the package into an output directory, then copy the DLLs and XML documentation files into a folder with the same name as the package to the src folder.

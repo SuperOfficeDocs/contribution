@@ -1,11 +1,11 @@
 ---
 uid: branch_strategy
-locale: en
+language: en
 title: Branch strategy for SuperOfficeDocs
 description: We use feature branches to isolate work in progress from the completed work in the main branch.
-so.topic: tutorial
-so.date: 04.19.2021
-so.author: Bergfrid Dias
+topic: tutorial
+date: 04.19.2021
+author: Bergfrid Dias
 ---
 
 # Branch strategy

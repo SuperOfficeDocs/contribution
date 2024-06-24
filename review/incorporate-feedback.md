@@ -3,9 +3,9 @@ title: View and incorporate feedback on PR
 uid: docs-review-feedback
 description: How to view and incorporate feedback on pull review at GitHub.
 author: Bergfrid Dias
-so.date: 11.14.2022
+date: 11.14.2022
 keywords: review, feedback, PR
-so.topic: howto
+topic: howto
 ---
 
 # View and incorporate feedback on PR

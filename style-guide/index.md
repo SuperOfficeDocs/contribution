@@ -1,11 +1,11 @@
 ---
 uid: styleguide
-locale: en
+language: en
 title: Documentation style guide
 description: Documentation style guide
-so.topic: reference
-so.date: 04.19.2021
-so.author: Bergfrid Dias
+topic: reference
+date: 04.19.2021
+author: Bergfrid Dias
 ---
 
 # Documentation style guide

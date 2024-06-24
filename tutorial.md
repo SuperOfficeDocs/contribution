@@ -1,10 +1,10 @@
 ---
 uid: getting_started
-locale: en
+language: en
 title: Getting started with SuperOfficeDocs
-so.topic: tutorial
-so.date: 04.19.2021
-so.author: Bergfrid Dias
+topic: tutorial
+date: 04.19.2021
+author: Bergfrid Dias
 ---
 
 # Getting started with SuperOfficeDocs
@@ -82,9 +82,8 @@ To contribute to SuperOffice Docs, you can make and edit Markdown files locally 
 
 ### Determine the repo (all)
 
-Documentation hosted at [docs.superoffice.com][19] resides in several different repositories at [github.com][20].
-
-As a starting point, you can use the *superoffice-docs* repo.
+<!-- markdownlint-disable-next-line MD044 -->
+Documentation hosted at [docs.superoffice.com][19] resides in several different repositories at [github.com][20]. As a starting point, you can use the *superoffice-docs* repo.
 
 > [!TIP]
 > Not sure which repository to use? Visit the article on `docs.superoffice.com` using your web browser. Select the **Edit** link (pencil icon). That link takes you to the GitHub location for the corresponding Markdown file in the appropriate repo.

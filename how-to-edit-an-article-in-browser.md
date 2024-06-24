@@ -1,11 +1,11 @@
 ---
 uid: how_to_edit_an_article_in_browser
-locale: en
+language: en
 title: Edit an article in the browser
 description: Edit an article in the browser
-so.topic: howto
-so.date: 04.19.2021
-so.author: Tony Yates
+topic: howto
+date: 04.19.2021
+author: Tony Yates
 ---
 
 # Edit an article in the browser

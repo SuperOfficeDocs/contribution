@@ -1,11 +1,11 @@
 ---
 uid: markdown-guide-to-docfx
-locale: en
+language: en
 title: Markdown guide for docs.superoffice.com
 description: This Markdown style guide is intended to ensure that the markup of SuperOfficeDocs has a consistent style, and is easy to navigate and maintain.
-so.topic: reference
-so.date: 11.30.2021
-so.author: Bergfrid Dias, Tony Yates
+topic: reference
+date: 11.30.2021
+author: Bergfrid Dias, Tony Yates
 ---
 
 # Markdown guide
@@ -243,7 +243,7 @@ To include an image, a call-out, a new paragraph, or a child list (without break
 We [use Yaml key-value front-matter syntax to embed metadata][5] in Markdown files.
 
 > [!NOTE]
-> The date format is MM.DD.YYYY. For example, `so.date: 11.30.2021`
+> The date format is MM.DD.YYYY. For example, `date: 11.30.2021`
 
 ## Source code
 

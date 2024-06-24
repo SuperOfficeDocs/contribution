@@ -3,9 +3,9 @@ title: Review process in SuperOfficeDocs
 uid: docs-review-process
 description: Explanation of how to request a review, to handle feedback and suggested changes, and to review someone else's contributions on SuperOfficeDocs.
 author: Bergfrid Dias
-so.date: 11.14.2022
+date: 11.14.2022
 keywords: review
-so.topic: concept
+topic: concept
 ---
 
 # Reviews on SuperOfficeDocs

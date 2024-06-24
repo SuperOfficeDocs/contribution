@@ -1,10 +1,10 @@
 ---
 uid: links-in-docs
-locale: en
+language: en
 title: How to use links in docs
-so.topic: reference
-so.date: 11.30.2021
-so.author: Bergfrid Dias
+topic: reference
+date: 11.30.2021
+author: Bergfrid Dias
 ---
 
 # How to use links in docs

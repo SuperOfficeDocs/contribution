@@ -1,10 +1,10 @@
 ---
 uid: git_commands
 title: How to include code in docs
-locale: en
-so.topic: reference
-so.date: 04.19.2021
-so.author: Bergfrid Dias
+language: en
+topic: reference
+date: 04.19.2021
+author: Bergfrid Dias
 ---
 
 # Git commands

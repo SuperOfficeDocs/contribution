@@ -1,11 +1,11 @@
 ---
 uid: content-reuse
-locale: en
+language: en
 title: Content reuse
 description: Introduction to content reuse and singlesourcing
-so.topic: concept
-so.date: 08.1.2022
-so.author: Bergfrid Dias
+topic: concept
+date: 08.1.2022
+author: Bergfrid Dias
 ---
 
 # Content reuse
