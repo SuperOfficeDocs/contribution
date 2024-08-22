@@ -3,7 +3,7 @@ uid: links-in-docs
 language: en
 title: How to use links in docs
 topic: reference
-date: 11.30.2021
+date: 08.22.2024
 author: Bergfrid Dias
 ---
 
@@ -108,16 +108,16 @@ Bookmark links go to a specific heading on the current or another page.
 
 **Add anchor:**
 
-You can use either the *id* or *name* attribute on the `<a>` tag. The anchor label must be lowercase and not contain spaces.
+You can use either the *id* or *name* attribute on the `<a>` tag. The anchor label must be lowercase and not contain spaces. Do **not** use a self-closing tag.
 
 ```markdown
-## <a id="anchor-label" />Heading text
+## <a id="anchor-label"></a>Heading text
 ```
 
 or
 
 ```markdown
-## <a name="anchor-label" />Heading text
+## <a name="anchor-label"></a>Heading text
 ```
 
 > [!NOTE]
