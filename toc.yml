@@ -42,6 +42,8 @@ items:
     href: markdown-guide/links-in-docs.md
   - name: Metadata
     href: markdown-guide/metadata.md
+  - name: Phosphor icons
+    href: markdown-guide/phosphor-icons.md
   - name: Code in docs
     href: markdown-guide/code-in-docs.md
   - name: Using markdownlint

@@ -1,11 +1,12 @@
 ---
 uid: markdown-guide-to-docfx
-language: en
 title: Markdown guide for docs.superoffice.com
 description: This Markdown style guide is intended to ensure that the markup of SuperOfficeDocs has a consistent style, and is easy to navigate and maintain.
-topic: reference
-date: 11.30.2021
+keywords: Markdown, formatting, style guide
 author: Bergfrid Dias, Tony Yates
+date: 11.11.2024
+topic: reference
+language: en
 ---
 
 # Markdown guide
@@ -183,7 +184,27 @@ To produce this effect, add the string " -screenshot" at the end of the alt tag:
 ![Alt text -screenshot][img1]
 ```
 
-### Icons
+### Font-based icons
+
+The new SuperOffice UI uses [Phosphor font-based icons][8].
+
+Format: \<i class="ph ph-\[icon-name\]" aria-label="\[Aria-label description\]">\<\/i>
+
+Example:
+
+```html
+<i class="ph ph-star" aria-label="Star icon"></i>
+```
+
+* Icon name (ph-\[icon-name\]): Replace \[icon-name\] with the specific Phosphor icon class name (for example, star, check-circle, warning-circle).
+
+* Accessibility (aria-label): Provide a meaningful, localized description for the icon using the aria-label attribute (for example, Star icon, Checkmark icon, Warning icon).
+
+  Ensure the description matches the context in which the icon is used.
+
+* Placement: Use this format wherever an inline icon is needed, such as in sentences, tables, or lists.
+
+### Legacy file-based icons
 
 Reusable icons are placed in the repository's top-level *media/icons/* folder. Don't set alt text for icons.
 
@@ -320,6 +341,7 @@ Here are a few resources to help with Markdown to help get you started:
 [5]: metadata.md
 [6]: links-in-docs.md
 [7]: code-in-docs.md
+[8]: https://phosphoricons.com/
 
 <!-- Referenced images -->
 [img1]: ../media/plain-action-buttons.png
